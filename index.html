@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patrons climàtics del Mediterrani occidental</title>
+  <meta name="description" content="Storytelling visual sobre com la NAO, la WeMO i l’ENSO/RONI s’associen amb la variabilitat climàtica del Mediterrani occidental." />
+  <link rel="preconnect" href="https://public.flourish.studio" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">Patrons climàtics</a>
+    <nav class="nav" aria-label="Navegació principal">
+      <a href="#dades">Dades</a>
+      <a href="#patrons">Patrons</a>
+      <a href="#nao">NAO</a>
+      <a href="#wemo">WeMO</a>
+      <a href="#enso">ENSO/RONI</a>
+      <a href="#explora">Explora</a>
+      <a href="#conclusio">Conclusió</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero hero-with-chart">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Visualització de dades · Màster en Ciència de Dades</p>
+          <h1>Patrons climàtics del Mediterrani occidental</h1>
+          <p class="subtitle">Una exploració visual de com la NAO, la WeMO i l’ENSO/RONI s’associen amb la pluja, la temperatura i la humitat del sòl.</p>
+          <p class="intro">
+            El clima mediterrani és irregular: alguns mesos són especialment secs, altres més humits, i les diferències poden canviar segons l’estació i la zona observada.
+          </p>
+          <p class="intro intro-secondary">
+            Aquesta web analitza si part d’aquesta variabilitat es pot llegir a través de tres patrons climàtics. El recorregut combina explicació, evidència visual i una última escena d’exploració interactiva.
+          </p>
+          <div class="hero-meta" aria-label="Informació del projecte">
+            <span>1981–2020</span>
+            <span>4 subregions</span>
+            <span>Dades mensuals</span>
+            <span>NAO · WeMO · ENSO/RONI</span>
+          </div>
+        </div>
+        <div class="chart-card hero-chart" aria-label="Mapa introductori de teleconnexions">
+          <div class="flourish-embed flourish-map" data-src="visualisation/29119742"><noscript><img src="https://public.flourish.studio/visualisation/29119742/thumbnail" width="100%" alt="Mapa introductori de teleconnexions" /></noscript></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="dades" class="section section-data">
+      <div class="text-block wide">
+        <p class="step">0. Les dades</p>
+        <h2>Mediterrani occidental: quatre subregions i quaranta anys de dades</h2>
+        <p>
+          L’anàlisi parteix d’observacions mensuals entre 1981 i 2020. Cada fila del conjunt de dades combina un mes i una subregió, cosa que permet comparar patrons climàtics en el temps i entre zones properes.
+        </p>
+      </div>
+      <div class="data-layout">
+        <div class="data-cards" aria-label="Resum del conjunt de dades">
+          <article class="metric-card">
+            <p class="card-label">Observacions</p>
+            <h3>1.920</h3>
+            <p>12 mesos × 40 anys × 4 subregions.</p>
+          </article>
+          <article class="metric-card">
+            <p class="card-label">Variables</p>
+            <h3>Clima + índexs</h3>
+            <p>Precipitació, temperatura de l’aire, humitat del sòl, SST i teleconnexions.</p>
+          </article>
+          <article class="metric-card">
+            <p class="card-label">Subregions</p>
+            <h3>4 zones</h3>
+            <p>Llevant Ibèric, Catalunya-Balears, Golf del Lleó i Mediterrani central occidental.</p>
+          </article>
+          <article class="metric-card">
+            <p class="card-label">Lectura</p>
+            <h3>Anomalies</h3>
+            <p>Els valors comparen cada mes amb la seva climatologia mensual de referència.</p>
+          </article>
+        </div>
+        <div class="chart-card map-card" aria-label="Mapa de subregions">
+          <div class="flourish-embed flourish-map" data-src="visualisation/29119137"><noscript><img src="https://public.flourish.studio/visualisation/29119137/thumbnail" width="100%" alt="Mapa de subregions del Mediterrani occidental" /></noscript></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="patrons" class="section alt section-patterns">
+      <div class="text-block">
+        <p class="step">1. Context</p>
+        <h2>Tres patrons per llegir la variabilitat climàtica</h2>
+        <p>
+          Les teleconnexions són patrons atmosfèrics o oceànics que poden estar relacionats amb canvis climàtics en regions allunyades. En aquest treball s’utilitzen com a indicadors: no per explicar-ho tot, sinó per observar quan coincideixen amb canvis en les variables climàtiques regionals.
+        </p>
+        <p class="key-insight">
+          La pregunta central és com s’associen aquests patrons amb el clima del Mediterrani occidental, i com canvia el senyal segons l’estació i la regió.
+        </p>
+      </div>
+
+      <div class="pattern-explorer" aria-label="Targetes interactives de teleconnexions">
+        <article class="pattern-card pattern-interactive nao-card">
+          <div class="pattern-copy">
+            <span>NAO</span>
+            <h3>Oscil·lació de l’Atlàntic Nord</h3>
+            <p>Resumeix un patró de pressió a l’Atlàntic Nord i ajuda a observar si la circulació atlàntica coincideix amb canvis de precipitació, temperatura i humitat del sòl.</p>
+            <div class="phase-buttons" role="group" aria-label="Fases de la NAO">
+              <button type="button" class="active" data-flourish-target="nao" data-flourish-panel="nao-negativa">Negativa</button>
+              <button type="button" data-flourish-target="nao" data-flourish-panel="nao-positiva">Positiva</button>
+            </div>
+          </div>
+          <div class="phase-flourish-wrap chart-card">
+            <div id="nao-negativa" class="phase-flourish-panel active" data-group="nao">
+              <div class="flourish-embed flourish-map" data-src="visualisation/29120992"><noscript><img src="https://public.flourish.studio/visualisation/29120992/thumbnail" width="100%" alt="Mapa NAO negativa" /></noscript></div>
+            </div>
+            <div id="nao-positiva" class="phase-flourish-panel" data-group="nao" hidden>
+              <div class="flourish-embed flourish-map" data-src="visualisation/29120194"><noscript><img src="https://public.flourish.studio/visualisation/29120194/thumbnail" width="100%" alt="Mapa NAO positiva" /></noscript></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="pattern-card pattern-interactive wemo-card">
+          <div class="pattern-copy">
+            <span>WeMO</span>
+            <h3>Oscil·lació del Mediterrani occidental</h3>
+            <p>És un patró més proper a la regió estudiada i permet explorar canvis associats a la temperatura, la precipitació i la temperatura superficial del mar.</p>
+            <div class="phase-buttons" role="group" aria-label="Fases de la WeMO">
+              <button type="button" class="active" data-flourish-target="wemo" data-flourish-panel="wemo-negativa">Negativa</button>
+              <button type="button" data-flourish-target="wemo" data-flourish-panel="wemo-positiva">Positiva</button>
+            </div>
+          </div>
+          <div class="phase-flourish-wrap chart-card">
+            <div id="wemo-negativa" class="phase-flourish-panel active" data-group="wemo">
+              <div class="flourish-embed flourish-map" data-src="visualisation/29121645"><noscript><img src="https://public.flourish.studio/visualisation/29121645/thumbnail" width="100%" alt="Mapa WeMO negativa" /></noscript></div>
+            </div>
+            <div id="wemo-positiva" class="phase-flourish-panel" data-group="wemo" hidden>
+              <div class="flourish-embed flourish-map" data-src="visualisation/29121359"><noscript><img src="https://public.flourish.studio/visualisation/29121359/thumbnail" width="100%" alt="Mapa WeMO positiva" /></noscript></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="pattern-card pattern-interactive enso-card">
+          <div class="pattern-copy">
+            <span>ENSO/RONI</span>
+            <h3>Senyal del Pacífic tropical</h3>
+            <p>S’inclou com a patró remot de comparació. En l’explorador final s’usa “negativa” per a condicions tipus La Niña i “positiva” per a condicions tipus El Niño.</p>
+            <div class="phase-buttons" role="group" aria-label="Fases de l’ENSO/RONI">
+              <button type="button" class="active" data-flourish-target="enso" data-flourish-panel="enso-negativa">Negativa</button>
+              <button type="button" data-flourish-target="enso" data-flourish-panel="enso-positiva">Positiva</button>
+            </div>
+          </div>
+          <div class="phase-flourish-wrap chart-card">
+            <div id="enso-negativa" class="phase-flourish-panel active" data-group="enso">
+              <div class="flourish-embed flourish-map" data-src="visualisation/29121220"><noscript><img src="https://public.flourish.studio/visualisation/29121220/thumbnail" width="100%" alt="Mapa ENSO/RONI negatiu" /></noscript></div>
+            </div>
+            <div id="enso-positiva" class="phase-flourish-panel" data-group="enso" hidden>
+              <div class="flourish-embed flourish-map" data-src="visualisation/29121115"><noscript><img src="https://public.flourish.studio/visualisation/29121115/thumbnail" width="100%" alt="Mapa ENSO/RONI positiu" /></noscript></div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="nao" class="section">
+      <div class="text-block">
+        <p class="step">2. NAO i precipitació</p>
+        <h2>La NAO positiva s’associa amb hiverns més secs</h2>
+        <p>El primer senyal clar apareix en la precipitació. En les dades analitzades, els mesos amb NAO positiva tendeixen a presentar anomalies de precipitació més baixes, especialment a l’hivern.</p>
+        <p>La visualització també permet explorar altres estacions: en alguns casos, com la tardor, el patró de menor precipitació durant la fase positiva també és visible.</p>
+        <p class="key-insight">Lectura: els valors negatius indiquen menys precipitació respecte a la climatologia mensual.</p>
+      </div>
+      <div class="chart-card">
+        <div class="flourish-embed flourish-scatter" data-src="visualisation/29096709"><noscript><img src="https://public.flourish.studio/visualisation/29096709/thumbnail" width="100%" alt="Distribució de l’anomalia de precipitació segons la fase de la NAO" /></noscript></div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="text-block">
+        <p class="step">3. Humitat del sòl</p>
+        <h2>La humitat del sòl mostra un senyal més matisat</h2>
+        <p>Després de la precipitació, la humitat del sòl permet observar si el senyal atmosfèric també es reflecteix en una condició més propera al territori. En aquest cas, la diferència entre fases és menys marcada que en la pluja.</p>
+        <p>Per això, en lloc de mostrar només l’anomalia mensual, el gràfic resumeix el percentatge de mesos amb sòl molt sec segons l’estació, la fase de la NAO i la subregió.</p>
+      </div>
+      <div class="chart-card">
+        <div class="flourish-embed flourish-heatmap" data-src="visualisation/29099761"><noscript><img src="https://public.flourish.studio/visualisation/29099761/thumbnail" width="100%" alt="Heatmap del percentatge de mesos amb sòl molt sec segons fase de la NAO" /></noscript></div>
+      </div>
+    </section>
+
+    <section id="wemo" class="section">
+      <div class="text-block">
+        <p class="step">4. WeMO</p>
+        <h2>La WeMO destaca més en temperatura i SST que en precipitació mensual</h2>
+        <p>La WeMO és el patró més proper geogràficament a l’àmbit d’estudi. Tot i això, en aquest dataset mensual el senyal més consistent apareix en la temperatura de l’aire i en la temperatura superficial del mar, especialment a primavera i tardor.</p>
+        <p>Això no contradiu estudis centrats en episodis extrems de precipitació: simplement indica que, a escala mensual i amb aquesta agregació regional, la relació més visible és una altra.</p>
+      </div>
+      <div class="chart-card">
+        <div class="flourish-embed flourish-scatter" data-src="visualisation/29097593"><noscript><img src="https://public.flourish.studio/visualisation/29097593/thumbnail" width="100%" alt="Comparació d’anomalies de temperatura i SST segons fase de la WeMO" /></noscript></div>
+      </div>
+    </section>
+
+    <section id="enso" class="section alt">
+      <div class="text-block">
+        <p class="step">5. ENSO/RONI</p>
+        <h2>L’ENSO/RONI queda com un senyal secundari en aquest àmbit regional</h2>
+        <p>L’ENSO és un dels patrons climàtics més coneguts a escala global. Tot i això, en aquest estudi del Mediterrani occidental el seu senyal és més feble que el de la NAO i la WeMO.</p>
+        <p>La posició dels punts mostra la intensitat de cada associació, i el color indica quines continuen sent robustes després d’una correcció estadística.</p>
+      </div>
+      <div class="chart-card">
+        <div class="flourish-embed flourish-scatter" data-src="visualisation/29100330"><noscript><img src="https://public.flourish.studio/visualisation/29100330/thumbnail" width="100%" alt="Intensitat de les associacions per teleconnexió" /></noscript></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="text-block">
+        <p class="step">6. Evolució recent</p>
+        <h2>2011–2020 concentra més mesos càlids amb baixa humitat del sòl</h2>
+        <p>Durant l’exploració de les dades apareix un patró temporal que val la pena destacar. Els episodis en què coincideixen anomalies càlides i baixa humitat del sòl augmenten en el període 2011–2020.</p>
+        <p>Aquest resultat no substitueix l’anàlisi de les teleconnexions, però ajuda a posar-la en context: els patrons atmosfèrics poden modular la variabilitat mensual, mentre que la comparació per dècades mostra un desplaçament recent cap a condicions més càlides i seques.</p>
+      </div>
+      <div class="chart-card">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/29098921"><noscript><img src="https://public.flourish.studio/visualisation/29098921/thumbnail" width="100%" alt="Percentatge de mesos càlids amb baixa humitat del sòl per període" /></noscript></div>
+      </div>
+    </section>
+
+    <section id="explora" class="section exploration-section">
+      <div class="text-block">
+        <p class="step">7. Exploració</p>
+        <h2>On apareix més clar cada patró?</h2>
+        <p>Les teleconnexions no tenen el mateix senyal en totes les variables, estacions i subregions. Aquest explorador permet canviar la teleconnexió, la fase i la variable climàtica per observar com varien les anomalies mitjanes al Mediterrani occidental.</p>
+        <div class="prompt-questions">
+          <p><strong>Preguntes per explorar:</strong></p>
+          <ul>
+            <li>La NAO positiva redueix la precipitació sobretot a l’hivern?</li>
+            <li>La WeMO deixa un senyal més clar en temperatura de l’aire o en SST?</li>
+            <li>Catalunya-Balears segueix el mateix patró que la resta?</li>
+            <li>RONI/ENSO mostra algun senyal regional clar o queda més diluït?</li>
+            <li>Els mesos càlids amb sòl sec s’acumulen en alguna fase concreta?</li>
+          </ul>
+        </div>
+      </div>
+      <div class="explorer-stack">
+        <div class="explorer-card">
+          <div class="chart-header">
+            <h3>Anomalia mitjana per estació i subregió</h3>
+            <p>Selecciona una teleconnexió, una fase, una variable i un període. Cada cel·la mostra l’anomalia mitjana dels mesos que compleixen aquella combinació.</p>
+          </div>
+          <div class="controls" aria-label="Controls de l’explorador d’anomalies">
+            <label>Teleconnexió<select id="control-teleconnexio"></select></label>
+            <label>Fase<select id="control-fase"></select></label>
+            <label>Variable<select id="control-variable"></select></label>
+            <label>Període<select id="control-period"></select></label>
+          </div>
+          <div id="heatmap-escena-09" class="plot-container" aria-live="polite"></div>
+          <div class="chart-note">
+            <strong>Com interpretar-ho:</strong> les cel·les mostren mitjanes agregades. Una anomalia positiva o negativa no implica causalitat directa, sinó una associació observada en els mesos que comparteixen aquella fase i període seleccionat. En el cas de RONI/ENSO, la fase negativa correspon a mesos tipus La Niña i la fase positiva a mesos tipus El Niño.
+          </div>
+        </div>
+
+        <div class="explorer-card">
+          <div class="chart-header">
+            <h3>Amb quina fase coincideixen més els episodis?</h3>
+            <p>Selecciona un indicador extrem i mira quin percentatge de mesos el presenten segons teleconnexió i fase. És la lectura inversa: primer triem el fenomen i després observem amb quins patrons coincideix més.</p>
+          </div>
+          <div class="controls" aria-label="Controls de l’explorador d’episodis">
+            <label>Indicador extrem<select id="control-indicador"></select></label>
+            <label>Estació<select id="control-episodi-estacio"></select></label>
+            <label>Subregió<select id="control-episodi-subregio"></select></label>
+            <label>Període<select id="control-episodi-period"></select></label>
+          </div>
+          <div id="heatmap-episodis-09" class="plot-container compact" aria-live="polite"></div>
+          <div class="chart-note">
+            <strong>Com interpretar-ho:</strong> cada cel·la mostra el percentatge de mesos amb l’indicador seleccionat dins d’una fase. El percentatge es calcula com <code>N episodis / N mesos × 100</code>. Per al període “Tots” s’utilitzen els totals de mesos i episodis, no una mitjana simple de les dècades.
+          </div>
+
+          <details class="definitions-accordion">
+            <summary>Definicions dels indicadors extrems</summary>
+            <div class="definitions-grid">
+              <article><h4>mes_molt_calid</h4><p>Un mes és “molt càlid” quan l’anomalia de temperatura és superior a <strong>+1 °C</strong>.</p><code>anomalia_temperatura &gt; 1</code></article>
+              <article><h4>mes_molt_fred</h4><p>Un mes és “molt fred” quan l’anomalia de temperatura és inferior a <strong>−1 °C</strong>.</p><code>anomalia_temperatura &lt; -1</code></article>
+              <article><h4>mes_molt_sec</h4><p>Un mes és “molt sec” quan l’anomalia de precipitació mensual és inferior a <strong>−30 mm</strong>.</p><code>anomalia_precipitacio_mensual_mm &lt; -30</code></article>
+              <article><h4>mes_molt_humit</h4><p>Un mes és “molt humit” quan l’anomalia de precipitació mensual és superior a <strong>+30 mm</strong>.</p><code>anomalia_precipitacio_mensual_mm &gt; 30</code></article>
+              <article><h4>sol_molt_sec</h4><p>El sòl és “molt sec” quan l’anomalia d’humitat superficial del sòl és inferior a <strong>−0,02 m³/m³</strong>.</p><code>anomalia_humitat_sol_capa1 &lt; -0.02</code></article>
+              <article><h4>sol_molt_humit</h4><p>El sòl és “molt humit” quan l’anomalia d’humitat superficial del sòl és superior a <strong>+0,02 m³/m³</strong>.</p><code>anomalia_humitat_sol_capa1 &gt; 0.02</code></article>
+              <article><h4>episodi_calid_i_sec</h4><p>Episodi compost que combina temperatura alta i poca precipitació.</p><code>mes_molt_calid &amp; mes_molt_sec</code></article>
+              <article><h4>episodi_fred_i_humit</h4><p>Episodi compost que combina temperatura baixa i molta precipitació.</p><code>mes_molt_fred &amp; mes_molt_humit</code></article>
+              <article><h4>episodi_calid_i_sol_sec</h4><p>Episodi compost que combina temperatura alta i baixa humitat del sòl.</p><code>mes_molt_calid &amp; sol_molt_sec</code></article>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="conclusio" class="section conclusion">
+      <div class="text-block wide">
+        <p class="step">8. Síntesi</p>
+        <h2>Les teleconnexions ajuden a llegir part de la variabilitat mediterrània</h2>
+        <p>
+          L’anàlisi mostra que les teleconnexions poden ajudar a interpretar part de la variabilitat climàtica del Mediterrani occidental, però no totes tenen el mateix pes ni apareixen de la mateixa manera.
+        </p>
+        <p>
+          La NAO mostra el senyal més clar en la precipitació hivernal i, de manera més matisada, en la freqüència de mesos amb sòl molt sec. La WeMO destaca sobretot en temperatura de l’aire i temperatura superficial del mar, especialment a primavera i tardor. L’ENSO/RONI queda com un patró més secundari en aquest àmbit regional i mensual.
+        </p>
+        <p>
+          A més, l’exploració temporal mostra que el període 2011–2020 concentra més episodis càlids amb baixa humitat del sòl a totes les subregions. Això no substitueix l’anàlisi de les teleconnexions, però reforça la idea que la variabilitat atmosfèrica s’ha d’interpretar dins d’un context climàtic que també està canviant.
+        </p>
+        <div class="summary-grid four-cards">
+          <article><h3>NAO</h3><p>Precipitació hivernal més baixa en fase positiva i senyal més matisat en sòl molt sec.</p></article>
+          <article><h3>WeMO</h3><p>Diferències més clares en temperatura de l’aire i SST que en precipitació mensual.</p></article>
+          <article><h3>ENSO/RONI</h3><p>Senyal més feble i menys consistent en el conjunt regional mensual.</p></article>
+          <article><h3>2011–2020</h3><p>Augment generalitzat dels mesos càlids amb baixa humitat del sòl.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Projecte de visualització de dades · UOC · Dades mensuals 1981–2020 · Fonts: Copernicus, NOAA i CRU/UEA.</p>
+  </footer>
+
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+  <script type="module" src="js/escena09.js"></script>
+</body>
+</html>
