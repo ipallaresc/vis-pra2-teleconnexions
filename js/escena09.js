@@ -53,19 +53,109 @@ const episodeControls = {
 const anomalyContainer = document.querySelector("#heatmap-escena-09");
 const episodeContainer = document.querySelector("#heatmap-episodis-09");
 
-function initFlourishPhaseButtons() {
-  document.querySelectorAll("[data-flourish-panel]").forEach(button => {
-    button.addEventListener("click", () => {
-      const group = button.dataset.flourishTarget;
-      const panelId = button.dataset.flourishPanel;
-      document.querySelectorAll(`[data-flourish-target="${group}"]`).forEach(peer => peer.classList.remove("active"));
-      button.classList.add("active");
-      document.querySelectorAll(`.phase-flourish-panel[data-group="${group}"]`).forEach(panel => {
-        panel.hidden = panel.id !== panelId;
-        panel.classList.toggle("active", panel.id === panelId);
+function rewriteSvgIds(svg, key) {
+  const elementsWithId = Array.from(svg.querySelectorAll("[id]"));
+  const idMap = new Map(elementsWithId.map(el => [el.id, `${key}-${el.id}`]));
+
+  for (const el of elementsWithId) {
+    el.id = idMap.get(el.id);
+  }
+
+  const allElements = [svg, ...Array.from(svg.querySelectorAll("*"))];
+  for (const el of allElements) {
+    for (const attr of Array.from(el.attributes || [])) {
+      let value = attr.value;
+      for (const [oldId, newId] of idMap) {
+        value = value
+          .replaceAll(`url(#${oldId})`, `url(#${newId})`)
+          .replaceAll(`href="#${oldId}"`, `href="#${newId}"`)
+          .replaceAll(`xlink:href="#${oldId}"`, `xlink:href="#${newId}"`)
+          .replaceAll(`#${oldId}`, `#${newId}`);
+      }
+      if (value !== attr.value) el.setAttribute(attr.name, value);
+    }
+  }
+
+  return idMap;
+}
+
+async function loadInteractiveSvg(container) {
+  const svgUrl = container.dataset.svg;
+  const key = container.dataset.svgKey || `svg-${Math.random().toString(36).slice(2)}`;
+  const defaultPhase = container.dataset.defaultPhase || "pos";
+
+  try {
+    const response = await fetch(svgUrl);
+    if (!response.ok) throw new Error(`No s'ha pogut carregar ${svgUrl}`);
+    const svgText = await response.text();
+    const doc = new DOMParser().parseFromString(svgText, "image/svg+xml");
+    const svg = doc.querySelector("svg");
+    if (!svg) throw new Error(`El fitxer ${svgUrl} no conté cap SVG vàlid`);
+
+    const idMap = rewriteSvgIds(svg, key);
+    container.replaceChildren(svg);
+
+    const botoNeg = container.querySelector(`#${CSS.escape(idMap.get("boto_neg") || "")}`);
+    const botoPos = container.querySelector(`#${CSS.escape(idMap.get("boto_pos") || "")}`);
+    const groupNeg = container.querySelector(`#${CSS.escape(idMap.get("group_neg") || "")}`);
+    const groupPos = container.querySelector(`#${CSS.escape(idMap.get("group_pos") || "")}`);
+
+    if (!botoNeg || !botoPos || !groupNeg || !groupPos) {
+      throw new Error(`Falten els IDs esperats al SVG ${svgUrl}`);
+    }
+
+    svg.setAttribute("width", "100%");
+    svg.removeAttribute("height");
+    svg.setAttribute("preserveAspectRatio", "xMidYMid meet");
+    svg.classList.add("inline-phase-svg");
+
+    botoNeg.style.cursor = "pointer";
+    botoPos.style.cursor = "pointer";
+    botoNeg.setAttribute("role", "button");
+    botoPos.setAttribute("role", "button");
+    botoNeg.setAttribute("tabindex", "0");
+    botoPos.setAttribute("tabindex", "0");
+    botoNeg.setAttribute("aria-label", "Mostra la fase negativa");
+    botoPos.setAttribute("aria-label", "Mostra la fase positiva");
+
+    function setButtonState(activeButton, inactiveButton) {
+      activeButton.style.opacity = "1";
+      inactiveButton.style.opacity = "0.42";
+      activeButton.classList.add("phase-svg-active");
+      inactiveButton.classList.remove("phase-svg-active");
+      activeButton.setAttribute("aria-pressed", "true");
+      inactiveButton.setAttribute("aria-pressed", "false");
+    }
+
+    function showPhase(phase) {
+      const showPositive = phase === "pos";
+      groupPos.style.display = showPositive ? "" : "none";
+      groupNeg.style.display = showPositive ? "none" : "";
+      setButtonState(showPositive ? botoPos : botoNeg, showPositive ? botoNeg : botoPos);
+      container.dataset.activePhase = phase;
+    }
+
+    function bindPhase(button, phase) {
+      button.addEventListener("click", () => showPhase(phase));
+      button.addEventListener("keydown", event => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          showPhase(phase);
+        }
       });
-    });
-  });
+    }
+
+    bindPhase(botoNeg, "neg");
+    bindPhase(botoPos, "pos");
+    showPhase(defaultPhase);
+  } catch (error) {
+    console.error(error);
+    container.innerHTML = `<p class="empty-state">No s'ha pogut carregar el diagrama SVG. Revisa el fitxer i els IDs <code>boto_neg</code>, <code>group_neg</code>, <code>boto_pos</code> i <code>group_pos</code>.</p>`;
+  }
+}
+
+function initInteractiveSvgs() {
+  document.querySelectorAll(".svg-interactive").forEach(loadInteractiveSvg);
 }
 
 function fillSelect(select, values, defaultValue) {
@@ -377,7 +467,7 @@ async function initEpisodes() {
   renderEpisodes(data);
 }
 
-initFlourishPhaseButtons();
+initInteractiveSvgs();
 initAnomalies().catch(error => {
   console.error(error);
   if (anomalyContainer) {

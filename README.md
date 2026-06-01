@@ -97,3 +97,20 @@ Canvis principals:
 - El segon heatmap de l'escena 9 incorpora tots els indicadors extrems definits, tot i que alguns poden aparèixer buits fins que el CSV s'actualitzi.
 - Les etiquetes numèriques dels heatmaps d'Observable Plot s'han fet més grans.
 - Les definicions dels indicadors extrems mostren el nom llegible utilitzat al selector i el càlcul amb el nom tècnic de la variable.
+
+## v8: SVG interactius de l'escena 3
+
+L'escena 3 ja no depèn de Flourish. Els tres diagrames es carreguen com a SVG inline des de:
+
+- `assets/svg/NAO.svg`
+- `assets/svg/WeMO.svg`
+- `assets/svg/ENSO.svg`
+
+Cada SVG ha de tenir aquests quatre IDs:
+
+- `boto_neg`
+- `group_neg`
+- `boto_pos`
+- `group_pos`
+
+Per defecte, la fase positiva queda activada i la negativa queda amagada. Quan es clica `boto_neg`, es mostra `group_neg` i s'amaga `group_pos`; quan es clica `boto_pos`, passa el contrari. El botó inactiu queda amb menys opacitat.

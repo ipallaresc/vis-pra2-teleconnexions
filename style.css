@@ -471,3 +471,44 @@ h1 {
   color: var(--muted);
   font-weight: 700;
 }
+
+/* v8: SVG interactius propis per a l'escena 3 */
+.pattern-svg {
+  width: 100%;
+  min-height: 430px;
+  display: grid;
+  place-items: center;
+  background: #ffffff;
+  border: 1px solid var(--line-soft);
+  border-radius: 18px;
+  overflow: hidden;
+  touch-action: manipulation;
+}
+
+.pattern-svg .inline-phase-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pattern-svg [role="button"] {
+  outline: none;
+  transition: opacity 0.16s ease, filter 0.16s ease;
+}
+
+.pattern-svg [role="button"]:hover,
+.pattern-svg [role="button"]:focus-visible {
+  filter: drop-shadow(0 0 6px rgba(43, 108, 176, 0.28));
+}
+
+.pattern-svg .phase-svg-active {
+  filter: drop-shadow(0 0 5px rgba(43, 108, 176, 0.18));
+}
+
+@media (max-width: 920px) {
+  .pattern-svg { min-height: 380px; }
+}
+
+@media (max-width: 620px) {
+  .pattern-svg { min-height: 320px; }
+}
