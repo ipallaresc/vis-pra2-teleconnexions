@@ -424,3 +424,50 @@ h1 {
 @media (max-width: 920px) {
   .pattern-with-flourish { grid-template-columns: 1fr; }
 }
+
+
+/* v7: millores per als embeds interactius de l'escena 3 */
+.pattern-chart {
+  position: relative;
+  z-index: 1;
+}
+
+.pattern-note-above {
+  margin: 0 0 0.85rem !important;
+}
+
+.pattern-flourish {
+  position: relative;
+  z-index: 2;
+  min-height: 520px;
+  touch-action: manipulation;
+}
+
+.pattern-flourish iframe {
+  min-height: 520px !important;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 920px) {
+  .pattern-flourish,
+  .pattern-flourish iframe {
+    min-height: 560px !important;
+  }
+}
+
+@media (max-width: 620px) {
+  .pattern-flourish,
+  .pattern-flourish iframe {
+    min-height: 620px !important;
+  }
+}
+
+.empty-state {
+  padding: 2rem;
+  border: 1px dashed var(--line);
+  border-radius: 16px;
+  background: #f8fcfe;
+  color: var(--muted);
+  font-weight: 700;
+}

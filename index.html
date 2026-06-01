@@ -104,8 +104,8 @@
             <p>En el Mediterrani occidental, això pot estar relacionat amb mesos més secs o més humits, sobretot durant l’hivern.</p>
           </div>
           <div class="chart-card pattern-chart">
-            <div class="flourish-embed flourish-interactive-diagram" data-src="visualisation/29203605"><noscript><img src="https://public.flourish.studio/visualisation/29203605/thumbnail" width="100%" alt="Diagrama interactiu de la NAO" /></noscript></div>
-            <p class="chart-note compact-note">Esquema simplificat del patró. Pots interactuar amb el gràfic per comparar les fases positiva i negativa.</p>
+            <p class="chart-note compact-note pattern-note-above">Esquema simplificat del patró. Pots interactuar amb el gràfic per comparar les fases positiva i negativa.</p>
+            <div class="flourish-embed flourish-interactive-diagram pattern-flourish" data-src="visualisation/29203605"><noscript><img src="https://public.flourish.studio/visualisation/29203605/thumbnail" width="100%" alt="Diagrama interactiu de la NAO" /></noscript></div>
           </div>
         </article>
 
@@ -118,8 +118,8 @@
             <p>En aquest projecte, la WeMO ajuda a explorar si el senyal regional mediterrani apareix en variables com la temperatura de l’aire i la temperatura superficial del mar.</p>
           </div>
           <div class="chart-card pattern-chart">
-            <div class="flourish-embed flourish-interactive-diagram" data-src="visualisation/29204466"><noscript><img src="https://public.flourish.studio/visualisation/29204466/thumbnail" width="100%" alt="Diagrama interactiu de la WeMO" /></noscript></div>
-            <p class="chart-note compact-note">Esquema simplificat del patró. Pots interactuar amb el gràfic per comparar les fases positiva i negativa.</p>
+            <p class="chart-note compact-note pattern-note-above">Esquema simplificat del patró. Pots interactuar amb el gràfic per comparar les fases positiva i negativa.</p>
+            <div class="flourish-embed flourish-interactive-diagram pattern-flourish" data-src="visualisation/29204466"><noscript><img src="https://public.flourish.studio/visualisation/29204466/thumbnail" width="100%" alt="Diagrama interactiu de la WeMO" /></noscript></div>
           </div>
         </article>
 
@@ -132,8 +132,8 @@
             <p>En aquest treball s’utilitza el RONI, una versió relativa de l’índex oceànic, per classificar les fases positives, negatives i neutrals d’aquest senyal. L’objectiu és comparar si aquest patró remot apareix amb la mateixa força que la NAO o la WeMO en el Mediterrani occidental.</p>
           </div>
           <div class="chart-card pattern-chart">
-            <div class="flourish-embed flourish-interactive-diagram" data-src="visualisation/29204843"><noscript><img src="https://public.flourish.studio/visualisation/29204843/thumbnail" width="100%" alt="Diagrama interactiu de l’ENSO" /></noscript></div>
-            <p class="chart-note compact-note">Esquema simplificat del patró. Pots interactuar amb el gràfic per comparar les fases positiva i negativa.</p>
+            <p class="chart-note compact-note pattern-note-above">Esquema simplificat del patró. Pots interactuar amb el gràfic per comparar les fases positiva i negativa.</p>
+            <div class="flourish-embed flourish-interactive-diagram pattern-flourish" data-src="visualisation/29204843"><noscript><img src="https://public.flourish.studio/visualisation/29204843/thumbnail" width="100%" alt="Diagrama interactiu de l’ENSO" /></noscript></div>
           </div>
         </article>
       </div>
@@ -256,15 +256,15 @@
           <details class="definitions-accordion">
             <summary>Definicions dels indicadors extrems</summary>
             <div class="definitions-grid">
-              <article><h4>mes_molt_calid</h4><p>Un mes és “molt càlid” quan l’anomalia de temperatura és superior a <strong>+1 °C</strong>. Interpretació: aquell mes ha estat almenys 1 °C més càlid que la climatologia mensual de la mateixa subregió.</p><code>anomalia_temperatura &gt; 1</code></article>
-              <article><h4>mes_molt_fred</h4><p>Un mes és “molt fred” quan l’anomalia de temperatura és inferior a <strong>−1 °C</strong>. Interpretació: aquell mes ha estat almenys 1 °C més fred que la climatologia mensual de la mateixa subregió.</p><code>anomalia_temperatura &lt; -1</code></article>
-              <article><h4>mes_molt_sec</h4><p>Un mes és “molt sec” quan l’anomalia de precipitació mensual és inferior a <strong>−30 mm</strong>. Interpretació: aquell mes ha tingut com a mínim 30 mm menys de precipitació que la climatologia mensual de la mateixa subregió.</p><code>anomalia_precipitacio_mensual_mm &lt; -30</code></article>
-              <article><h4>mes_molt_humit</h4><p>Un mes és “molt humit” quan l’anomalia de precipitació mensual és superior a <strong>+30 mm</strong>. Interpretació: aquell mes ha tingut com a mínim 30 mm més de precipitació que la climatologia mensual de la mateixa subregió.</p><code>anomalia_precipitacio_mensual_mm &gt; 30</code></article>
-              <article><h4>sol_molt_sec</h4><p>El sòl és “molt sec” quan l’anomalia d’humitat superficial del sòl és inferior a <strong>−0,02 m³/m³</strong>. Interpretació: sòl més sec del que seria esperable per aquell mes i subregió.</p><code>anomalia_humitat_sol_capa1 &lt; -0.02</code></article>
-              <article><h4>sol_molt_humit</h4><p>El sòl és “molt humit” quan l’anomalia d’humitat superficial del sòl és superior a <strong>+0,02 m³/m³</strong>. Interpretació: la humitat de la primera capa del sòl és almenys 0,02 m³/m³ superior al valor habitual.</p><code>anomalia_humitat_sol_capa1 &gt; 0.02</code></article>
-              <article><h4>episodi_calid_i_sec</h4><p>Episodi compost que combina temperatura alta i poca precipitació. Interpretació: és un mes alhora molt càlid i molt sec en precipitació.</p><code>mes_molt_calid &amp; mes_molt_sec</code></article>
-              <article><h4>episodi_fred_i_humit</h4><p>Episodi compost que combina temperatura baixa i molta precipitació. Interpretació: és un mes alhora molt fred i molt humit en precipitació.</p><code>mes_molt_fred &amp; mes_molt_humit</code></article>
-              <article><h4>episodi_calid_i_sol_sec</h4><p>Episodi compost que combina temperatura alta i baixa humitat del sòl. Interpretació: és un mes alhora molt càlid i amb el sòl superficial molt sec.</p><code>mes_molt_calid &amp; sol_molt_sec</code></article>
+              <article><h4>Mes molt càlid</h4><p>Un mes és “molt càlid” quan l’anomalia de temperatura és superior a <strong>+1 °C</strong>. Interpretació: aquell mes ha estat almenys 1 °C més càlid que la climatologia mensual de la mateixa subregió.</p><code>mes_molt_calid = anomalia_temperatura &gt; 1</code></article>
+              <article><h4>Mes molt fred</h4><p>Un mes és “molt fred” quan l’anomalia de temperatura és inferior a <strong>−1 °C</strong>. Interpretació: aquell mes ha estat almenys 1 °C més fred que la climatologia mensual de la mateixa subregió.</p><code>mes_molt_fred = anomalia_temperatura &lt; -1</code></article>
+              <article><h4>Mes molt sec</h4><p>Un mes és “molt sec” quan l’anomalia de precipitació mensual és inferior a <strong>−30 mm</strong>. Interpretació: aquell mes ha tingut com a mínim 30 mm menys de precipitació que la climatologia mensual de la mateixa subregió.</p><code>mes_molt_sec = anomalia_precipitacio_mensual_mm &lt; -30</code></article>
+              <article><h4>Mes molt humit</h4><p>Un mes és “molt humit” quan l’anomalia de precipitació mensual és superior a <strong>+30 mm</strong>. Interpretació: aquell mes ha tingut com a mínim 30 mm més de precipitació que la climatologia mensual de la mateixa subregió.</p><code>mes_molt_humit = anomalia_precipitacio_mensual_mm &gt; 30</code></article>
+              <article><h4>Sòl molt sec</h4><p>El sòl és “molt sec” quan l’anomalia d’humitat superficial del sòl és inferior a <strong>−0,02 m³/m³</strong>. Interpretació: sòl més sec del que seria esperable per aquell mes i subregió.</p><code>sol_molt_sec = anomalia_humitat_sol_capa1 &lt; -0.02</code></article>
+              <article><h4>Sòl molt humit</h4><p>El sòl és “molt humit” quan l’anomalia d’humitat superficial del sòl és superior a <strong>+0,02 m³/m³</strong>. Interpretació: la humitat de la primera capa del sòl és almenys 0,02 m³/m³ superior al valor habitual.</p><code>sol_molt_humit = anomalia_humitat_sol_capa1 &gt; 0.02</code></article>
+              <article><h4>Episodi càlid i sec</h4><p>Episodi compost que combina temperatura alta i poca precipitació. Interpretació: és un mes alhora molt càlid i molt sec en precipitació.</p><code>episodi_calid_i_sec = mes_molt_calid &amp; mes_molt_sec</code></article>
+              <article><h4>Episodi fred i humit</h4><p>Episodi compost que combina temperatura baixa i molta precipitació. Interpretació: és un mes alhora molt fred i molt humit en precipitació.</p><code>episodi_fred_i_humit = mes_molt_fred &amp; mes_molt_humit</code></article>
+              <article><h4>Episodi càlid amb baixa humitat del sòl</h4><p>Episodi compost que combina temperatura alta i baixa humitat del sòl. Interpretació: és un mes alhora molt càlid i amb el sòl superficial molt sec.</p><code>episodi_calid_i_sol_sec = mes_molt_calid &amp; sol_molt_sec</code></article>
             </div>
           </details>
         </div>

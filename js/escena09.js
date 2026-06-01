@@ -18,10 +18,14 @@ const order = {
   ],
   indicadors: [
     "Episodi càlid amb baixa humitat del sòl",
+    "Episodi càlid i sec",
+    "Episodi fred i humit",
     "Sòl molt sec",
+    "Sòl molt humit",
     "Mes molt càlid",
+    "Mes molt fred",
     "Mes molt sec",
-    "Episodi càlid i sec"
+    "Mes molt humit"
   ]
 };
 
@@ -211,8 +215,8 @@ function renderAnomalies(data) {
         y: "Subregió",
         text: d => formatNumber(d["Anomalia mitjana"], d.Variable === "Precipitació" ? 1 : 2),
         fill: d => Math.abs(d["Anomalia mitjana"]) > Math.abs(colorDomain[2]) * 0.58 ? "white" : "#203142",
-        fontSize: 12,
-        fontWeight: 750
+        fontSize: 14,
+        fontWeight: 780
       })
     ]
   });
@@ -260,6 +264,11 @@ function renderEpisodes(data) {
   const period = episodeControls.period?.value || "Tots";
   const aggregated = aggregateEpisodes(data, indicator, estacio, subregio, period);
 
+  if (!aggregated.length) {
+    episodeContainer.innerHTML = `<div class="empty-state">Encara no hi ha dades per a l’indicador seleccionat. Quan actualitzis el CSV amb aquest indicador, el heatmap es generarà automàticament.</div>`;
+    return;
+  }
+
   const xDomain = order.fases.filter(f => aggregated.some(d => d.Fase === f));
   const width = Math.max(720, Math.min(920, episodeContainer.clientWidth || 920));
 
@@ -305,8 +314,8 @@ function renderEpisodes(data) {
         y: "Teleconnexió",
         text: d => `${formatNumber(d["Percentatge mesos"], 1)}%`,
         fill: d => d["Percentatge mesos"] > 25 ? "white" : "#203142",
-        fontSize: 12,
-        fontWeight: 760
+        fontSize: 14,
+        fontWeight: 780
       })
     ]
   });
@@ -353,7 +362,7 @@ async function initEpisodes() {
     "N mesos": +d["N mesos"]
   }));
 
-  const indicadors = order.indicadors.filter(v => data.some(d => d.Indicador === v));
+  const indicadors = order.indicadors;
   const periodes = availablePeriods(data);
   fillSelect(episodeControls.indicador, indicadors, "Episodi càlid amb baixa humitat del sòl");
   fillSelect(episodeControls.estacio, ["Totes", ...order.estacions], "Totes");

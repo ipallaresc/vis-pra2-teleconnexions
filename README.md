@@ -87,3 +87,13 @@ https://github.com/ipallaresc/vis-pra2-teleconnexions
 4. Seleccionar `Deploy from a branch`.
 5. Triar `main` i `/root`.
 6. Guardar i esperar que GitHub generi la URL pública.
+
+## Iteració v7
+
+Canvis principals:
+
+- La nota dels diagrames de l'escena 3 s'ha mogut a sobre dels embeds.
+- Els embeds de l'escena 3 tenen una alçada mínima superior per millorar la interacció en pantalles petites.
+- El segon heatmap de l'escena 9 incorpora tots els indicadors extrems definits, tot i que alguns poden aparèixer buits fins que el CSV s'actualitzi.
+- Les etiquetes numèriques dels heatmaps d'Observable Plot s'han fet més grans.
+- Les definicions dels indicadors extrems mostren el nom llegible utilitzat al selector i el càlcul amb el nom tècnic de la variable.
