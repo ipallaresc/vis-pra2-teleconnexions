@@ -1,0 +1,2 @@
+n_files,n_subregions,n_mesos,top_corr_abs,top_corr_desc,n_corr_fdr_005,n_phase_tests_fdr_005,n_bool_tests_fdr_005
+1920,4,480,0.8783468061660941,wemo vs vent_u10,1309,684,123

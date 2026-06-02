@@ -1,0 +1,301 @@
+﻿Teleconnexió,Variable,Unitat,Àmbit,Subregió,Estació,Correlació,Força absoluta,Signe,P valor,Q FDR,Significatiu FDR,N,Etiqueta
+NAO,Precipitació,mm,Global,Totes,Totes,-0.312,0.312,Negativa,0.0,0.0,Sí,1920,NAO · Precipitació · Global
+NAO,Humitat del sòl,m3/m3,Global,Totes,Totes,-0.223,0.223,Negativa,0.0,0.0,Sí,1920,NAO · Humitat del sòl · Global
+NAO,Temperatura,°C,Global,Totes,Totes,0.195,0.195,Positiva,0.0,0.0,Sí,1920,NAO · Temperatura · Global
+NAO,SST,°C,Global,Totes,Totes,0.114,0.114,Positiva,0.0,0.0,Sí,1920,NAO · SST · Global
+NAO,Precipitació,mm,Estació,Totes,Hivern,-0.456,0.456,Negativa,0.0,0.0,Sí,480,NAO · Precipitació · Estació
+NAO,Precipitació,mm,Estació,Totes,Primavera,-0.316,0.316,Negativa,0.0,0.0,Sí,480,NAO · Precipitació · Estació
+NAO,Precipitació,mm,Estació,Totes,Estiu,-0.088,0.088,Negativa,0.0541,0.1663,No,480,NAO · Precipitació · Estació
+NAO,Precipitació,mm,Estació,Totes,Tardor,-0.339,0.339,Negativa,0.0,0.0,Sí,480,NAO · Precipitació · Estació
+NAO,Humitat del sòl,m3/m3,Estació,Totes,Hivern,-0.387,0.387,Negativa,0.0,0.0,Sí,480,NAO · Humitat del sòl · Estació
+NAO,Humitat del sòl,m3/m3,Estació,Totes,Primavera,-0.281,0.281,Negativa,0.0,0.0,Sí,480,NAO · Humitat del sòl · Estació
+NAO,Humitat del sòl,m3/m3,Estació,Totes,Estiu,-0.028,0.028,Negativa,0.5341,0.7312,No,480,NAO · Humitat del sòl · Estació
+NAO,Humitat del sòl,m3/m3,Estació,Totes,Tardor,-0.211,0.211,Negativa,0.0,0.0,Sí,480,NAO · Humitat del sòl · Estació
+NAO,Temperatura,°C,Estació,Totes,Hivern,0.318,0.318,Positiva,0.0,0.0,Sí,480,NAO · Temperatura · Estació
+NAO,Temperatura,°C,Estació,Totes,Primavera,0.227,0.227,Positiva,0.0,0.0,Sí,480,NAO · Temperatura · Estació
+NAO,Temperatura,°C,Estació,Totes,Estiu,-0.034,0.034,Negativa,0.4553,0.6748,No,480,NAO · Temperatura · Estació
+NAO,Temperatura,°C,Estació,Totes,Tardor,0.252,0.252,Positiva,0.0,0.0,Sí,480,NAO · Temperatura · Estació
+NAO,SST,°C,Estació,Totes,Hivern,0.316,0.316,Positiva,0.0,0.0,Sí,480,NAO · SST · Estació
+NAO,SST,°C,Estació,Totes,Primavera,0.202,0.202,Positiva,0.0,0.0001,Sí,480,NAO · SST · Estació
+NAO,SST,°C,Estació,Totes,Estiu,-0.052,0.052,Negativa,0.2528,0.4813,No,480,NAO · SST · Estació
+NAO,SST,°C,Estació,Totes,Tardor,0.141,0.141,Positiva,0.002,0.0123,Sí,480,NAO · SST · Estació
+NAO,Precipitació,mm,Subregió,Catalunya-Balears,Totes,-0.34,0.34,Negativa,0.0,0.0,Sí,480,NAO · Precipitació · Subregió
+NAO,Precipitació,mm,Subregió,Golf del Lleó,Totes,-0.327,0.327,Negativa,0.0,0.0,Sí,480,NAO · Precipitació · Subregió
+NAO,Precipitació,mm,Subregió,Llevant Ibèric,Totes,-0.254,0.254,Negativa,0.0,0.0,Sí,480,NAO · Precipitació · Subregió
+NAO,Precipitació,mm,Subregió,Mediterrani central occidental,Totes,-0.349,0.349,Negativa,0.0,0.0,Sí,480,NAO · Precipitació · Subregió
+NAO,Humitat del sòl,m3/m3,Subregió,Catalunya-Balears,Totes,-0.231,0.231,Negativa,0.0,0.0,Sí,480,NAO · Humitat del sòl · Subregió
+NAO,Humitat del sòl,m3/m3,Subregió,Golf del Lleó,Totes,-0.208,0.208,Negativa,0.0,0.0001,Sí,480,NAO · Humitat del sòl · Subregió
+NAO,Humitat del sòl,m3/m3,Subregió,Llevant Ibèric,Totes,-0.224,0.224,Negativa,0.0,0.0,Sí,480,NAO · Humitat del sòl · Subregió
+NAO,Humitat del sòl,m3/m3,Subregió,Mediterrani central occidental,Totes,-0.239,0.239,Negativa,0.0,0.0,Sí,480,NAO · Humitat del sòl · Subregió
+NAO,Temperatura,°C,Subregió,Catalunya-Balears,Totes,0.203,0.203,Positiva,0.0,0.0001,Sí,480,NAO · Temperatura · Subregió
+NAO,Temperatura,°C,Subregió,Golf del Lleó,Totes,0.298,0.298,Positiva,0.0,0.0,Sí,480,NAO · Temperatura · Subregió
+NAO,Temperatura,°C,Subregió,Llevant Ibèric,Totes,0.123,0.123,Positiva,0.0071,0.0351,Sí,480,NAO · Temperatura · Subregió
+NAO,Temperatura,°C,Subregió,Mediterrani central occidental,Totes,0.122,0.122,Positiva,0.0075,0.037,Sí,480,NAO · Temperatura · Subregió
+NAO,SST,°C,Subregió,Catalunya-Balears,Totes,0.124,0.124,Positiva,0.0064,0.0325,Sí,480,NAO · SST · Subregió
+NAO,SST,°C,Subregió,Golf del Lleó,Totes,0.136,0.136,Positiva,0.0029,0.0171,Sí,480,NAO · SST · Subregió
+NAO,SST,°C,Subregió,Llevant Ibèric,Totes,0.11,0.11,Positiva,0.0159,0.0672,No,480,NAO · SST · Subregió
+NAO,SST,°C,Subregió,Mediterrani central occidental,Totes,0.087,0.087,Positiva,0.0575,0.1739,No,480,NAO · SST · Subregió
+NAO,Precipitació,mm,Subregió i estació,Catalunya-Balears,Hivern,-0.523,0.523,Negativa,0.0,0.0,Sí,120,NAO · Precipitació · Subregió i estació
+NAO,Precipitació,mm,Subregió i estació,Golf del Lleó,Hivern,-0.415,0.415,Negativa,0.0,0.0,Sí,120,NAO · Precipitació · Subregió i estació
+NAO,Precipitació,mm,Subregió i estació,Llevant Ibèric,Hivern,-0.426,0.426,Negativa,0.0,0.0,Sí,120,NAO · Precipitació · Subregió i estació
+NAO,Precipitació,mm,Subregió i estació,Mediterrani central occidental,Hivern,-0.511,0.511,Negativa,0.0,0.0,Sí,120,NAO · Precipitació · Subregió i estació
+NAO,Precipitació,mm,Subregió i estació,Catalunya-Balears,Primavera,-0.342,0.342,Negativa,0.0001,0.0012,Sí,120,NAO · Precipitació · Subregió i estació
+NAO,Precipitació,mm,Subregió i estació,Golf del Lleó,Primavera,-0.402,0.402,Negativa,0.0,0.0001,Sí,120,NAO · Precipitació · Subregió i estació
+NAO,Precipitació,mm,Subregió i estació,Llevant Ibèric,Primavera,-0.203,0.203,Negativa,0.0265,0.0989,No,120,NAO · Precipitació · Subregió i estació
+NAO,Precipitació,mm,Subregió i estació,Mediterrani central occidental,Primavera,-0.298,0.298,Negativa,0.001,0.0067,Sí,120,NAO · Precipitació · Subregió i estació
+NAO,Precipitació,mm,Subregió i estació,Catalunya-Balears,Estiu,-0.057,0.057,Negativa,0.5378,0.7331,No,120,NAO · Precipitació · Subregió i estació
+NAO,Precipitació,mm,Subregió i estació,Golf del Lleó,Estiu,-0.104,0.104,Negativa,0.2576,0.4864,No,120,NAO · Precipitació · Subregió i estació
+NAO,Precipitació,mm,Subregió i estació,Llevant Ibèric,Estiu,-0.162,0.162,Negativa,0.0779,0.2166,No,120,NAO · Precipitació · Subregió i estació
+NAO,Precipitació,mm,Subregió i estació,Mediterrani central occidental,Estiu,-0.043,0.043,Negativa,0.6395,0.8014,No,120,NAO · Precipitació · Subregió i estació
+NAO,Precipitació,mm,Subregió i estació,Catalunya-Balears,Tardor,-0.364,0.364,Negativa,0.0,0.0004,Sí,120,NAO · Precipitació · Subregió i estació
+NAO,Precipitació,mm,Subregió i estació,Golf del Lleó,Tardor,-0.374,0.374,Negativa,0.0,0.0003,Sí,120,NAO · Precipitació · Subregió i estació
+NAO,Precipitació,mm,Subregió i estació,Llevant Ibèric,Tardor,-0.234,0.234,Negativa,0.0099,0.0463,Sí,120,NAO · Precipitació · Subregió i estació
+NAO,Precipitació,mm,Subregió i estació,Mediterrani central occidental,Tardor,-0.395,0.395,Negativa,0.0,0.0001,Sí,120,NAO · Precipitació · Subregió i estació
+NAO,Humitat del sòl,m3/m3,Subregió i estació,Catalunya-Balears,Hivern,-0.434,0.434,Negativa,0.0,0.0,Sí,120,NAO · Humitat del sòl · Subregió i estació
+NAO,Humitat del sòl,m3/m3,Subregió i estació,Golf del Lleó,Hivern,-0.383,0.383,Negativa,0.0,0.0002,Sí,120,NAO · Humitat del sòl · Subregió i estació
+NAO,Humitat del sòl,m3/m3,Subregió i estació,Llevant Ibèric,Hivern,-0.324,0.324,Negativa,0.0003,0.0025,Sí,120,NAO · Humitat del sòl · Subregió i estació
+NAO,Humitat del sòl,m3/m3,Subregió i estació,Mediterrani central occidental,Hivern,-0.555,0.555,Negativa,0.0,0.0,Sí,120,NAO · Humitat del sòl · Subregió i estació
+NAO,Humitat del sòl,m3/m3,Subregió i estació,Catalunya-Balears,Primavera,-0.337,0.337,Negativa,0.0002,0.0015,Sí,120,NAO · Humitat del sòl · Subregió i estació
+NAO,Humitat del sòl,m3/m3,Subregió i estació,Golf del Lleó,Primavera,-0.331,0.331,Negativa,0.0002,0.0019,Sí,120,NAO · Humitat del sòl · Subregió i estació
+NAO,Humitat del sòl,m3/m3,Subregió i estació,Llevant Ibèric,Primavera,-0.271,0.271,Negativa,0.0028,0.0164,Sí,120,NAO · Humitat del sòl · Subregió i estació
+NAO,Humitat del sòl,m3/m3,Subregió i estació,Mediterrani central occidental,Primavera,-0.242,0.242,Negativa,0.0078,0.0382,Sí,120,NAO · Humitat del sòl · Subregió i estació
+NAO,Humitat del sòl,m3/m3,Subregió i estació,Catalunya-Balears,Estiu,-0.01,0.01,Negativa,0.9096,0.9576,No,120,NAO · Humitat del sòl · Subregió i estació
+NAO,Humitat del sòl,m3/m3,Subregió i estació,Golf del Lleó,Estiu,-0.02,0.02,Negativa,0.8292,0.9186,No,120,NAO · Humitat del sòl · Subregió i estació
+NAO,Humitat del sòl,m3/m3,Subregió i estació,Llevant Ibèric,Estiu,-0.1,0.1,Negativa,0.276,0.5074,No,120,NAO · Humitat del sòl · Subregió i estació
+NAO,Humitat del sòl,m3/m3,Subregió i estació,Mediterrani central occidental,Estiu,0.008,0.008,Positiva,0.929,0.9674,No,120,NAO · Humitat del sòl · Subregió i estació
+NAO,Humitat del sòl,m3/m3,Subregió i estació,Catalunya-Balears,Tardor,-0.227,0.227,Negativa,0.0128,0.0568,No,120,NAO · Humitat del sòl · Subregió i estació
+NAO,Humitat del sòl,m3/m3,Subregió i estació,Golf del Lleó,Tardor,-0.276,0.276,Negativa,0.0023,0.014,Sí,120,NAO · Humitat del sòl · Subregió i estació
+NAO,Humitat del sòl,m3/m3,Subregió i estació,Llevant Ibèric,Tardor,-0.186,0.186,Negativa,0.0421,0.1396,No,120,NAO · Humitat del sòl · Subregió i estació
+NAO,Humitat del sòl,m3/m3,Subregió i estació,Mediterrani central occidental,Tardor,-0.186,0.186,Negativa,0.0424,0.1403,No,120,NAO · Humitat del sòl · Subregió i estació
+NAO,Temperatura,°C,Subregió i estació,Catalunya-Balears,Hivern,0.337,0.337,Positiva,0.0002,0.0015,Sí,120,NAO · Temperatura · Subregió i estació
+NAO,Temperatura,°C,Subregió i estació,Golf del Lleó,Hivern,0.444,0.444,Positiva,0.0,0.0,Sí,120,NAO · Temperatura · Subregió i estació
+NAO,Temperatura,°C,Subregió i estació,Llevant Ibèric,Hivern,0.17,0.17,Positiva,0.0638,0.1879,No,120,NAO · Temperatura · Subregió i estació
+NAO,Temperatura,°C,Subregió i estació,Mediterrani central occidental,Hivern,0.278,0.278,Positiva,0.0021,0.0132,Sí,120,NAO · Temperatura · Subregió i estació
+NAO,Temperatura,°C,Subregió i estació,Catalunya-Balears,Primavera,0.225,0.225,Positiva,0.0136,0.0597,No,120,NAO · Temperatura · Subregió i estació
+NAO,Temperatura,°C,Subregió i estació,Golf del Lleó,Primavera,0.285,0.285,Positiva,0.0016,0.0103,Sí,120,NAO · Temperatura · Subregió i estació
+NAO,Temperatura,°C,Subregió i estació,Llevant Ibèric,Primavera,0.252,0.252,Positiva,0.0054,0.0282,Sí,120,NAO · Temperatura · Subregió i estació
+NAO,Temperatura,°C,Subregió i estació,Mediterrani central occidental,Primavera,0.127,0.127,Positiva,0.1657,0.3647,No,120,NAO · Temperatura · Subregió i estació
+NAO,Temperatura,°C,Subregió i estació,Catalunya-Balears,Estiu,-0.021,0.021,Negativa,0.8162,0.9121,No,120,NAO · Temperatura · Subregió i estació
+NAO,Temperatura,°C,Subregió i estació,Golf del Lleó,Estiu,0.06,0.06,Positiva,0.5163,0.7215,No,120,NAO · Temperatura · Subregió i estació
+NAO,Temperatura,°C,Subregió i estació,Llevant Ibèric,Estiu,-0.111,0.111,Negativa,0.228,0.4508,No,120,NAO · Temperatura · Subregió i estació
+NAO,Temperatura,°C,Subregió i estació,Mediterrani central occidental,Estiu,-0.095,0.095,Negativa,0.3008,0.5332,No,120,NAO · Temperatura · Subregió i estació
+NAO,Temperatura,°C,Subregió i estació,Catalunya-Balears,Tardor,0.256,0.256,Positiva,0.0047,0.0254,Sí,120,NAO · Temperatura · Subregió i estació
+NAO,Temperatura,°C,Subregió i estació,Golf del Lleó,Tardor,0.356,0.356,Positiva,0.0001,0.0007,Sí,120,NAO · Temperatura · Subregió i estació
+NAO,Temperatura,°C,Subregió i estació,Llevant Ibèric,Tardor,0.196,0.196,Positiva,0.0322,0.1144,No,120,NAO · Temperatura · Subregió i estació
+NAO,Temperatura,°C,Subregió i estació,Mediterrani central occidental,Tardor,0.17,0.17,Positiva,0.0633,0.1869,No,120,NAO · Temperatura · Subregió i estació
+NAO,SST,°C,Subregió i estació,Catalunya-Balears,Hivern,0.371,0.371,Positiva,0.0,0.0003,Sí,120,NAO · SST · Subregió i estació
+NAO,SST,°C,Subregió i estació,Golf del Lleó,Hivern,0.321,0.321,Positiva,0.0003,0.0028,Sí,120,NAO · SST · Subregió i estació
+NAO,SST,°C,Subregió i estació,Llevant Ibèric,Hivern,0.307,0.307,Positiva,0.0006,0.0048,Sí,120,NAO · SST · Subregió i estació
+NAO,SST,°C,Subregió i estació,Mediterrani central occidental,Hivern,0.278,0.278,Positiva,0.0021,0.0132,Sí,120,NAO · SST · Subregió i estació
+NAO,SST,°C,Subregió i estació,Catalunya-Balears,Primavera,0.177,0.177,Positiva,0.0524,0.1627,No,120,NAO · SST · Subregió i estació
+NAO,SST,°C,Subregió i estació,Golf del Lleó,Primavera,0.227,0.227,Positiva,0.0125,0.0557,No,120,NAO · SST · Subregió i estació
+NAO,SST,°C,Subregió i estació,Llevant Ibèric,Primavera,0.243,0.243,Positiva,0.0074,0.0365,Sí,120,NAO · SST · Subregió i estació
+NAO,SST,°C,Subregió i estació,Mediterrani central occidental,Primavera,0.166,0.166,Positiva,0.0692,0.1986,No,120,NAO · SST · Subregió i estació
+NAO,SST,°C,Subregió i estació,Catalunya-Balears,Estiu,-0.045,0.045,Negativa,0.6247,0.7921,No,120,NAO · SST · Subregió i estació
+NAO,SST,°C,Subregió i estació,Golf del Lleó,Estiu,0.019,0.019,Positiva,0.8351,0.9228,No,120,NAO · SST · Subregió i estació
+NAO,SST,°C,Subregió i estació,Llevant Ibèric,Estiu,-0.146,0.146,Negativa,0.1111,0.2795,No,120,NAO · SST · Subregió i estació
+NAO,SST,°C,Subregió i estació,Mediterrani central occidental,Estiu,-0.08,0.08,Negativa,0.3872,0.6171,No,120,NAO · SST · Subregió i estació
+NAO,SST,°C,Subregió i estació,Catalunya-Balears,Tardor,0.148,0.148,Positiva,0.1066,0.2713,No,120,NAO · SST · Subregió i estació
+NAO,SST,°C,Subregió i estació,Golf del Lleó,Tardor,0.137,0.137,Positiva,0.1345,0.3173,No,120,NAO · SST · Subregió i estació
+NAO,SST,°C,Subregió i estació,Llevant Ibèric,Tardor,0.169,0.169,Positiva,0.0654,0.191,No,120,NAO · SST · Subregió i estació
+NAO,SST,°C,Subregió i estació,Mediterrani central occidental,Tardor,0.115,0.115,Positiva,0.2129,0.4301,No,120,NAO · SST · Subregió i estació
+WeMO,Precipitació,mm,Global,Totes,Totes,-0.022,0.022,Negativa,0.3431,0.5756,No,1920,WeMO · Precipitació · Global
+WeMO,Humitat del sòl,m3/m3,Global,Totes,Totes,-0.033,0.033,Negativa,0.1531,0.3461,No,1920,WeMO · Humitat del sòl · Global
+WeMO,Temperatura,°C,Global,Totes,Totes,-0.237,0.237,Negativa,0.0,0.0,Sí,1920,WeMO · Temperatura · Global
+WeMO,SST,°C,Global,Totes,Totes,-0.258,0.258,Negativa,0.0,0.0,Sí,1920,WeMO · SST · Global
+WeMO,Precipitació,mm,Estació,Totes,Hivern,-0.112,0.112,Negativa,0.0141,0.0613,No,480,WeMO · Precipitació · Estació
+WeMO,Precipitació,mm,Estació,Totes,Primavera,0.048,0.048,Positiva,0.2969,0.5292,No,480,WeMO · Precipitació · Estació
+WeMO,Precipitació,mm,Estació,Totes,Estiu,0.147,0.147,Positiva,0.0013,0.0086,Sí,480,WeMO · Precipitació · Estació
+WeMO,Precipitació,mm,Estació,Totes,Tardor,-0.088,0.088,Negativa,0.053,0.1637,No,480,WeMO · Precipitació · Estació
+WeMO,Humitat del sòl,m3/m3,Estació,Totes,Hivern,-0.219,0.219,Negativa,0.0,0.0,Sí,480,WeMO · Humitat del sòl · Estació
+WeMO,Humitat del sòl,m3/m3,Estació,Totes,Primavera,-0.035,0.035,Negativa,0.4404,0.6613,No,480,WeMO · Humitat del sòl · Estació
+WeMO,Humitat del sòl,m3/m3,Estació,Totes,Estiu,0.121,0.121,Positiva,0.0082,0.0396,Sí,480,WeMO · Humitat del sòl · Estació
+WeMO,Humitat del sòl,m3/m3,Estació,Totes,Tardor,-0.018,0.018,Negativa,0.6977,0.8373,No,480,WeMO · Humitat del sòl · Estació
+WeMO,Temperatura,°C,Estació,Totes,Hivern,0.034,0.034,Positiva,0.4596,0.678,No,480,WeMO · Temperatura · Estació
+WeMO,Temperatura,°C,Estació,Totes,Primavera,-0.375,0.375,Negativa,0.0,0.0,Sí,480,WeMO · Temperatura · Estació
+WeMO,Temperatura,°C,Estació,Totes,Estiu,-0.221,0.221,Negativa,0.0,0.0,Sí,480,WeMO · Temperatura · Estació
+WeMO,Temperatura,°C,Estació,Totes,Tardor,-0.403,0.403,Negativa,0.0,0.0,Sí,480,WeMO · Temperatura · Estació
+WeMO,SST,°C,Estació,Totes,Hivern,0.037,0.037,Positiva,0.4207,0.6452,No,480,WeMO · SST · Estació
+WeMO,SST,°C,Estació,Totes,Primavera,-0.356,0.356,Negativa,0.0,0.0,Sí,480,WeMO · SST · Estació
+WeMO,SST,°C,Estació,Totes,Estiu,-0.178,0.178,Negativa,0.0001,0.0008,Sí,480,WeMO · SST · Estació
+WeMO,SST,°C,Estació,Totes,Tardor,-0.468,0.468,Negativa,0.0,0.0,Sí,480,WeMO · SST · Estació
+WeMO,Precipitació,mm,Subregió,Catalunya-Balears,Totes,-0.154,0.154,Negativa,0.0007,0.0054,Sí,480,WeMO · Precipitació · Subregió
+WeMO,Precipitació,mm,Subregió,Golf del Lleó,Totes,0.189,0.189,Positiva,0.0,0.0003,Sí,480,WeMO · Precipitació · Subregió
+WeMO,Precipitació,mm,Subregió,Llevant Ibèric,Totes,-0.343,0.343,Negativa,0.0,0.0,Sí,480,WeMO · Precipitació · Subregió
+WeMO,Precipitació,mm,Subregió,Mediterrani central occidental,Totes,0.078,0.078,Positiva,0.0861,0.2336,No,480,WeMO · Precipitació · Subregió
+WeMO,Humitat del sòl,m3/m3,Subregió,Catalunya-Balears,Totes,-0.061,0.061,Negativa,0.1791,0.3844,No,480,WeMO · Humitat del sòl · Subregió
+WeMO,Humitat del sòl,m3/m3,Subregió,Golf del Lleó,Totes,0.227,0.227,Positiva,0.0,0.0,Sí,480,WeMO · Humitat del sòl · Subregió
+WeMO,Humitat del sòl,m3/m3,Subregió,Llevant Ibèric,Totes,-0.291,0.291,Negativa,0.0,0.0,Sí,480,WeMO · Humitat del sòl · Subregió
+WeMO,Humitat del sòl,m3/m3,Subregió,Mediterrani central occidental,Totes,0.09,0.09,Positiva,0.0499,0.1577,No,480,WeMO · Humitat del sòl · Subregió
+WeMO,Temperatura,°C,Subregió,Catalunya-Balears,Totes,-0.258,0.258,Negativa,0.0,0.0,Sí,480,WeMO · Temperatura · Subregió
+WeMO,Temperatura,°C,Subregió,Golf del Lleó,Totes,-0.289,0.289,Negativa,0.0,0.0,Sí,480,WeMO · Temperatura · Subregió
+WeMO,Temperatura,°C,Subregió,Llevant Ibèric,Totes,-0.14,0.14,Negativa,0.002,0.0127,Sí,480,WeMO · Temperatura · Subregió
+WeMO,Temperatura,°C,Subregió,Mediterrani central occidental,Totes,-0.254,0.254,Negativa,0.0,0.0,Sí,480,WeMO · Temperatura · Subregió
+WeMO,SST,°C,Subregió,Catalunya-Balears,Totes,-0.257,0.257,Negativa,0.0,0.0,Sí,480,WeMO · SST · Subregió
+WeMO,SST,°C,Subregió,Golf del Lleó,Totes,-0.273,0.273,Negativa,0.0,0.0,Sí,480,WeMO · SST · Subregió
+WeMO,SST,°C,Subregió,Llevant Ibèric,Totes,-0.235,0.235,Negativa,0.0,0.0,Sí,480,WeMO · SST · Subregió
+WeMO,SST,°C,Subregió,Mediterrani central occidental,Totes,-0.27,0.27,Negativa,0.0,0.0,Sí,480,WeMO · SST · Subregió
+WeMO,Precipitació,mm,Subregió i estació,Catalunya-Balears,Hivern,-0.38,0.38,Negativa,0.0,0.0002,Sí,120,WeMO · Precipitació · Subregió i estació
+WeMO,Precipitació,mm,Subregió i estació,Golf del Lleó,Hivern,0.202,0.202,Positiva,0.027,0.1005,No,120,WeMO · Precipitació · Subregió i estació
+WeMO,Precipitació,mm,Subregió i estació,Llevant Ibèric,Hivern,-0.505,0.505,Negativa,0.0,0.0,Sí,120,WeMO · Precipitació · Subregió i estació
+WeMO,Precipitació,mm,Subregió i estació,Mediterrani central occidental,Hivern,0.009,0.009,Positiva,0.9246,0.9661,No,120,WeMO · Precipitació · Subregió i estació
+WeMO,Precipitació,mm,Subregió i estació,Catalunya-Balears,Primavera,-0.099,0.099,Negativa,0.2837,0.515,No,120,WeMO · Precipitació · Subregió i estació
+WeMO,Precipitació,mm,Subregió i estació,Golf del Lleó,Primavera,0.313,0.313,Positiva,0.0005,0.0038,Sí,120,WeMO · Precipitació · Subregió i estació
+WeMO,Precipitació,mm,Subregió i estació,Llevant Ibèric,Primavera,-0.35,0.35,Negativa,0.0001,0.0009,Sí,120,WeMO · Precipitació · Subregió i estació
+WeMO,Precipitació,mm,Subregió i estació,Mediterrani central occidental,Primavera,0.153,0.153,Positiva,0.0943,0.2487,No,120,WeMO · Precipitació · Subregió i estació
+WeMO,Precipitació,mm,Subregió i estació,Catalunya-Balears,Estiu,0.17,0.17,Positiva,0.063,0.1867,No,120,WeMO · Precipitació · Subregió i estació
+WeMO,Precipitació,mm,Subregió i estació,Golf del Lleó,Estiu,0.256,0.256,Positiva,0.0047,0.0253,Sí,120,WeMO · Precipitació · Subregió i estació
+WeMO,Precipitació,mm,Subregió i estació,Llevant Ibèric,Estiu,-0.037,0.037,Negativa,0.6915,0.8334,No,120,WeMO · Precipitació · Subregió i estació
+WeMO,Precipitació,mm,Subregió i estació,Mediterrani central occidental,Estiu,0.119,0.119,Positiva,0.1959,0.4076,No,120,WeMO · Precipitació · Subregió i estació
+WeMO,Precipitació,mm,Subregió i estació,Catalunya-Balears,Tardor,-0.204,0.204,Negativa,0.0255,0.0963,No,120,WeMO · Precipitació · Subregió i estació
+WeMO,Precipitació,mm,Subregió i estació,Golf del Lleó,Tardor,0.068,0.068,Positiva,0.4603,0.678,No,120,WeMO · Precipitació · Subregió i estació
+WeMO,Precipitació,mm,Subregió i estació,Llevant Ibèric,Tardor,-0.403,0.403,Negativa,0.0,0.0001,Sí,120,WeMO · Precipitació · Subregió i estació
+WeMO,Precipitació,mm,Subregió i estació,Mediterrani central occidental,Tardor,0.083,0.083,Positiva,0.3685,0.599,No,120,WeMO · Precipitació · Subregió i estació
+WeMO,Humitat del sòl,m3/m3,Subregió i estació,Catalunya-Balears,Hivern,-0.306,0.306,Negativa,0.0007,0.005,Sí,120,WeMO · Humitat del sòl · Subregió i estació
+WeMO,Humitat del sòl,m3/m3,Subregió i estació,Golf del Lleó,Hivern,0.16,0.16,Positiva,0.0816,0.2249,No,120,WeMO · Humitat del sòl · Subregió i estació
+WeMO,Humitat del sòl,m3/m3,Subregió i estació,Llevant Ibèric,Hivern,-0.448,0.448,Negativa,0.0,0.0,Sí,120,WeMO · Humitat del sòl · Subregió i estació
+WeMO,Humitat del sòl,m3/m3,Subregió i estació,Mediterrani central occidental,Hivern,-0.056,0.056,Negativa,0.5425,0.7359,No,120,WeMO · Humitat del sòl · Subregió i estació
+WeMO,Humitat del sòl,m3/m3,Subregió i estació,Catalunya-Balears,Primavera,-0.101,0.101,Negativa,0.2724,0.5042,No,120,WeMO · Humitat del sòl · Subregió i estació
+WeMO,Humitat del sòl,m3/m3,Subregió i estació,Golf del Lleó,Primavera,0.257,0.257,Positiva,0.0047,0.0251,Sí,120,WeMO · Humitat del sòl · Subregió i estació
+WeMO,Humitat del sòl,m3/m3,Subregió i estació,Llevant Ibèric,Primavera,-0.292,0.292,Negativa,0.0012,0.0081,Sí,120,WeMO · Humitat del sòl · Subregió i estació
+WeMO,Humitat del sòl,m3/m3,Subregió i estació,Mediterrani central occidental,Primavera,0.098,0.098,Positiva,0.285,0.5161,No,120,WeMO · Humitat del sòl · Subregió i estació
+WeMO,Humitat del sòl,m3/m3,Subregió i estació,Catalunya-Balears,Estiu,0.13,0.13,Positiva,0.1559,0.3504,No,120,WeMO · Humitat del sòl · Subregió i estació
+WeMO,Humitat del sòl,m3/m3,Subregió i estació,Golf del Lleó,Estiu,0.241,0.241,Positiva,0.008,0.039,Sí,120,WeMO · Humitat del sòl · Subregió i estació
+WeMO,Humitat del sòl,m3/m3,Subregió i estació,Llevant Ibèric,Estiu,0.046,0.046,Positiva,0.6197,0.7904,No,120,WeMO · Humitat del sòl · Subregió i estació
+WeMO,Humitat del sòl,m3/m3,Subregió i estació,Mediterrani central occidental,Estiu,0.03,0.03,Positiva,0.7421,0.8639,No,120,WeMO · Humitat del sòl · Subregió i estació
+WeMO,Humitat del sòl,m3/m3,Subregió i estació,Catalunya-Balears,Tardor,-0.05,0.05,Negativa,0.5912,0.7693,No,120,WeMO · Humitat del sòl · Subregió i estació
+WeMO,Humitat del sòl,m3/m3,Subregió i estació,Golf del Lleó,Tardor,0.235,0.235,Positiva,0.0099,0.046,Sí,120,WeMO · Humitat del sòl · Subregió i estació
+WeMO,Humitat del sòl,m3/m3,Subregió i estació,Llevant Ibèric,Tardor,-0.373,0.373,Negativa,0.0,0.0003,Sí,120,WeMO · Humitat del sòl · Subregió i estació
+WeMO,Humitat del sòl,m3/m3,Subregió i estació,Mediterrani central occidental,Tardor,0.212,0.212,Positiva,0.0203,0.0804,No,120,WeMO · Humitat del sòl · Subregió i estació
+WeMO,Temperatura,°C,Subregió i estació,Catalunya-Balears,Hivern,0.029,0.029,Positiva,0.7567,0.8747,No,120,WeMO · Temperatura · Subregió i estació
+WeMO,Temperatura,°C,Subregió i estació,Golf del Lleó,Hivern,0.016,0.016,Positiva,0.861,0.9337,No,120,WeMO · Temperatura · Subregió i estació
+WeMO,Temperatura,°C,Subregió i estació,Llevant Ibèric,Hivern,0.128,0.128,Positiva,0.1648,0.3633,No,120,WeMO · Temperatura · Subregió i estació
+WeMO,Temperatura,°C,Subregió i estació,Mediterrani central occidental,Hivern,-0.023,0.023,Negativa,0.8025,0.9047,No,120,WeMO · Temperatura · Subregió i estació
+WeMO,Temperatura,°C,Subregió i estació,Catalunya-Balears,Primavera,-0.409,0.409,Negativa,0.0,0.0,Sí,120,WeMO · Temperatura · Subregió i estació
+WeMO,Temperatura,°C,Subregió i estació,Golf del Lleó,Primavera,-0.508,0.508,Negativa,0.0,0.0,Sí,120,WeMO · Temperatura · Subregió i estació
+WeMO,Temperatura,°C,Subregió i estació,Llevant Ibèric,Primavera,-0.179,0.179,Negativa,0.0504,0.159,No,120,WeMO · Temperatura · Subregió i estació
+WeMO,Temperatura,°C,Subregió i estació,Mediterrani central occidental,Primavera,-0.386,0.386,Negativa,0.0,0.0002,Sí,120,WeMO · Temperatura · Subregió i estació
+WeMO,Temperatura,°C,Subregió i estació,Catalunya-Balears,Estiu,-0.211,0.211,Negativa,0.0209,0.0821,No,120,WeMO · Temperatura · Subregió i estació
+WeMO,Temperatura,°C,Subregió i estació,Golf del Lleó,Estiu,-0.307,0.307,Negativa,0.0006,0.0048,Sí,120,WeMO · Temperatura · Subregió i estació
+WeMO,Temperatura,°C,Subregió i estació,Llevant Ibèric,Estiu,-0.181,0.181,Negativa,0.048,0.1539,No,120,WeMO · Temperatura · Subregió i estació
+WeMO,Temperatura,°C,Subregió i estació,Mediterrani central occidental,Estiu,-0.168,0.168,Negativa,0.0661,0.1923,No,120,WeMO · Temperatura · Subregió i estació
+WeMO,Temperatura,°C,Subregió i estació,Catalunya-Balears,Tardor,-0.455,0.455,Negativa,0.0,0.0,Sí,120,WeMO · Temperatura · Subregió i estació
+WeMO,Temperatura,°C,Subregió i estació,Golf del Lleó,Tardor,-0.399,0.399,Negativa,0.0,0.0001,Sí,120,WeMO · Temperatura · Subregió i estació
+WeMO,Temperatura,°C,Subregió i estació,Llevant Ibèric,Tardor,-0.319,0.319,Negativa,0.0004,0.0031,Sí,120,WeMO · Temperatura · Subregió i estació
+WeMO,Temperatura,°C,Subregió i estació,Mediterrani central occidental,Tardor,-0.469,0.469,Negativa,0.0,0.0,Sí,120,WeMO · Temperatura · Subregió i estació
+WeMO,SST,°C,Subregió i estació,Catalunya-Balears,Hivern,0.064,0.064,Positiva,0.4883,0.6991,No,120,WeMO · SST · Subregió i estació
+WeMO,SST,°C,Subregió i estació,Golf del Lleó,Hivern,0.089,0.089,Positiva,0.3355,0.5679,No,120,WeMO · SST · Subregió i estació
+WeMO,SST,°C,Subregió i estació,Llevant Ibèric,Hivern,0.005,0.005,Positiva,0.9549,0.9813,No,120,WeMO · SST · Subregió i estació
+WeMO,SST,°C,Subregió i estació,Mediterrani central occidental,Hivern,-0.015,0.015,Negativa,0.8724,0.9393,No,120,WeMO · SST · Subregió i estació
+WeMO,SST,°C,Subregió i estació,Catalunya-Balears,Primavera,-0.389,0.389,Negativa,0.0,0.0001,Sí,120,WeMO · SST · Subregió i estació
+WeMO,SST,°C,Subregió i estació,Golf del Lleó,Primavera,-0.416,0.416,Negativa,0.0,0.0,Sí,120,WeMO · SST · Subregió i estació
+WeMO,SST,°C,Subregió i estació,Llevant Ibèric,Primavera,-0.221,0.221,Negativa,0.0155,0.0661,No,120,WeMO · SST · Subregió i estació
+WeMO,SST,°C,Subregió i estació,Mediterrani central occidental,Primavera,-0.377,0.377,Negativa,0.0,0.0003,Sí,120,WeMO · SST · Subregió i estació
+WeMO,SST,°C,Subregió i estació,Catalunya-Balears,Estiu,-0.138,0.138,Negativa,0.1341,0.3163,No,120,WeMO · SST · Subregió i estació
+WeMO,SST,°C,Subregió i estació,Golf del Lleó,Estiu,-0.225,0.225,Negativa,0.0135,0.0595,No,120,WeMO · SST · Subregió i estació
+WeMO,SST,°C,Subregió i estació,Llevant Ibèric,Estiu,-0.178,0.178,Negativa,0.0511,0.1605,No,120,WeMO · SST · Subregió i estació
+WeMO,SST,°C,Subregió i estació,Mediterrani central occidental,Estiu,-0.169,0.169,Negativa,0.065,0.1903,No,120,WeMO · SST · Subregió i estació
+WeMO,SST,°C,Subregió i estació,Catalunya-Balears,Tardor,-0.492,0.492,Negativa,0.0,0.0,Sí,120,WeMO · SST · Subregió i estació
+WeMO,SST,°C,Subregió i estació,Golf del Lleó,Tardor,-0.457,0.457,Negativa,0.0,0.0,Sí,120,WeMO · SST · Subregió i estació
+WeMO,SST,°C,Subregió i estació,Llevant Ibèric,Tardor,-0.438,0.438,Negativa,0.0,0.0,Sí,120,WeMO · SST · Subregió i estació
+WeMO,SST,°C,Subregió i estació,Mediterrani central occidental,Tardor,-0.502,0.502,Negativa,0.0,0.0,Sí,120,WeMO · SST · Subregió i estació
+RONI,Precipitació,mm,Global,Totes,Totes,0.013,0.013,Positiva,0.5793,0.7618,No,1920,RONI · Precipitació · Global
+RONI,Humitat del sòl,m3/m3,Global,Totes,Totes,0.027,0.027,Positiva,0.2356,0.4608,No,1920,RONI · Humitat del sòl · Global
+RONI,Temperatura,°C,Global,Totes,Totes,0.051,0.051,Positiva,0.0261,0.098,No,1920,RONI · Temperatura · Global
+RONI,SST,°C,Global,Totes,Totes,0.042,0.042,Positiva,0.0665,0.1928,No,1920,RONI · SST · Global
+RONI,Precipitació,mm,Estació,Totes,Hivern,-0.017,0.017,Negativa,0.7024,0.8398,No,480,RONI · Precipitació · Estació
+RONI,Precipitació,mm,Estació,Totes,Primavera,-0.205,0.205,Negativa,0.0,0.0001,Sí,480,RONI · Precipitació · Estació
+RONI,Precipitació,mm,Estació,Totes,Estiu,0.136,0.136,Positiva,0.0028,0.0164,Sí,480,RONI · Precipitació · Estació
+RONI,Precipitació,mm,Estació,Totes,Tardor,0.11,0.11,Positiva,0.0159,0.0672,No,480,RONI · Precipitació · Estació
+RONI,Humitat del sòl,m3/m3,Estació,Totes,Hivern,0.022,0.022,Positiva,0.6311,0.7961,No,480,RONI · Humitat del sòl · Estació
+RONI,Humitat del sòl,m3/m3,Estació,Totes,Primavera,-0.171,0.171,Negativa,0.0002,0.0015,Sí,480,RONI · Humitat del sòl · Estació
+RONI,Humitat del sòl,m3/m3,Estació,Totes,Estiu,-0.001,0.001,Negativa,0.9859,0.9945,No,480,RONI · Humitat del sòl · Estació
+RONI,Humitat del sòl,m3/m3,Estació,Totes,Tardor,0.176,0.176,Positiva,0.0001,0.001,Sí,480,RONI · Humitat del sòl · Estació
+RONI,Temperatura,°C,Estació,Totes,Hivern,0.076,0.076,Positiva,0.0984,0.257,No,480,RONI · Temperatura · Estació
+RONI,Temperatura,°C,Estació,Totes,Primavera,-0.145,0.145,Negativa,0.0015,0.0095,Sí,480,RONI · Temperatura · Estació
+RONI,Temperatura,°C,Estació,Totes,Estiu,0.009,0.009,Positiva,0.8376,0.924,No,480,RONI · Temperatura · Estació
+RONI,Temperatura,°C,Estació,Totes,Tardor,0.169,0.169,Positiva,0.0002,0.0017,Sí,480,RONI · Temperatura · Estació
+RONI,SST,°C,Estació,Totes,Hivern,0.151,0.151,Positiva,0.0009,0.0064,Sí,480,RONI · SST · Estació
+RONI,SST,°C,Estació,Totes,Primavera,-0.148,0.148,Negativa,0.0011,0.0077,Sí,480,RONI · SST · Estació
+RONI,SST,°C,Estació,Totes,Estiu,-0.028,0.028,Negativa,0.5339,0.7312,No,480,RONI · SST · Estació
+RONI,SST,°C,Estació,Totes,Tardor,0.125,0.125,Positiva,0.006,0.0308,Sí,480,RONI · SST · Estació
+RONI,Precipitació,mm,Subregió,Catalunya-Balears,Totes,0.017,0.017,Positiva,0.7179,0.8494,No,480,RONI · Precipitació · Subregió
+RONI,Precipitació,mm,Subregió,Golf del Lleó,Totes,0.023,0.023,Positiva,0.6214,0.7906,No,480,RONI · Precipitació · Subregió
+RONI,Precipitació,mm,Subregió,Llevant Ibèric,Totes,0.019,0.019,Positiva,0.6758,0.8238,No,480,RONI · Precipitació · Subregió
+RONI,Precipitació,mm,Subregió,Mediterrani central occidental,Totes,-0.011,0.011,Negativa,0.8036,0.9053,No,480,RONI · Precipitació · Subregió
+RONI,Humitat del sòl,m3/m3,Subregió,Catalunya-Balears,Totes,0.039,0.039,Positiva,0.3901,0.6202,No,480,RONI · Humitat del sòl · Subregió
+RONI,Humitat del sòl,m3/m3,Subregió,Golf del Lleó,Totes,0.061,0.061,Positiva,0.185,0.3932,No,480,RONI · Humitat del sòl · Subregió
+RONI,Humitat del sòl,m3/m3,Subregió,Llevant Ibèric,Totes,0.011,0.011,Positiva,0.8049,0.9062,No,480,RONI · Humitat del sòl · Subregió
+RONI,Humitat del sòl,m3/m3,Subregió,Mediterrani central occidental,Totes,0.011,0.011,Positiva,0.8143,0.9108,No,480,RONI · Humitat del sòl · Subregió
+RONI,Temperatura,°C,Subregió,Catalunya-Balears,Totes,0.044,0.044,Positiva,0.3337,0.5671,No,480,RONI · Temperatura · Subregió
+RONI,Temperatura,°C,Subregió,Golf del Lleó,Totes,0.059,0.059,Positiva,0.2,0.4136,No,480,RONI · Temperatura · Subregió
+RONI,Temperatura,°C,Subregió,Llevant Ibèric,Totes,0.024,0.024,Positiva,0.593,0.7702,No,480,RONI · Temperatura · Subregió
+RONI,Temperatura,°C,Subregió,Mediterrani central occidental,Totes,0.077,0.077,Positiva,0.0914,0.2437,No,480,RONI · Temperatura · Subregió
+RONI,SST,°C,Subregió,Catalunya-Balears,Totes,0.009,0.009,Positiva,0.8379,0.924,No,480,RONI · SST · Subregió
+RONI,SST,°C,Subregió,Golf del Lleó,Totes,0.079,0.079,Positiva,0.082,0.2258,No,480,RONI · SST · Subregió
+RONI,SST,°C,Subregió,Llevant Ibèric,Totes,0.002,0.002,Positiva,0.9566,0.9818,No,480,RONI · SST · Subregió
+RONI,SST,°C,Subregió,Mediterrani central occidental,Totes,0.062,0.062,Positiva,0.1775,0.3826,No,480,RONI · SST · Subregió
+RONI,Precipitació,mm,Subregió i estació,Catalunya-Balears,Hivern,0.052,0.052,Positiva,0.5742,0.758,No,120,RONI · Precipitació · Subregió i estació
+RONI,Precipitació,mm,Subregió i estació,Golf del Lleó,Hivern,-0.086,0.086,Negativa,0.3484,0.5802,No,120,RONI · Precipitació · Subregió i estació
+RONI,Precipitació,mm,Subregió i estació,Llevant Ibèric,Hivern,0.049,0.049,Positiva,0.5915,0.7693,No,120,RONI · Precipitació · Subregió i estació
+RONI,Precipitació,mm,Subregió i estació,Mediterrani central occidental,Hivern,-0.042,0.042,Negativa,0.6483,0.8072,No,120,RONI · Precipitació · Subregió i estació
+RONI,Precipitació,mm,Subregió i estació,Catalunya-Balears,Primavera,-0.239,0.239,Negativa,0.0087,0.0414,Sí,120,RONI · Precipitació · Subregió i estació
+RONI,Precipitació,mm,Subregió i estació,Golf del Lleó,Primavera,-0.215,0.215,Negativa,0.0182,0.0747,No,120,RONI · Precipitació · Subregió i estació
+RONI,Precipitació,mm,Subregió i estació,Llevant Ibèric,Primavera,-0.169,0.169,Negativa,0.0651,0.1903,No,120,RONI · Precipitació · Subregió i estació
+RONI,Precipitació,mm,Subregió i estació,Mediterrani central occidental,Primavera,-0.214,0.214,Negativa,0.0192,0.0777,No,120,RONI · Precipitació · Subregió i estació
+RONI,Precipitació,mm,Subregió i estació,Catalunya-Balears,Estiu,0.143,0.143,Positiva,0.1202,0.2946,No,120,RONI · Precipitació · Subregió i estació
+RONI,Precipitació,mm,Subregió i estació,Golf del Lleó,Estiu,0.254,0.254,Positiva,0.0052,0.0274,Sí,120,RONI · Precipitació · Subregió i estació
+RONI,Precipitació,mm,Subregió i estació,Llevant Ibèric,Estiu,-0.015,0.015,Negativa,0.8736,0.9396,No,120,RONI · Precipitació · Subregió i estació
+RONI,Precipitació,mm,Subregió i estació,Mediterrani central occidental,Estiu,0.069,0.069,Positiva,0.4557,0.6749,No,120,RONI · Precipitació · Subregió i estació
+RONI,Precipitació,mm,Subregió i estació,Catalunya-Balears,Tardor,0.071,0.071,Positiva,0.4383,0.6596,No,120,RONI · Precipitació · Subregió i estació
+RONI,Precipitació,mm,Subregió i estació,Golf del Lleó,Tardor,0.157,0.157,Positiva,0.0863,0.2336,No,120,RONI · Precipitació · Subregió i estació
+RONI,Precipitació,mm,Subregió i estació,Llevant Ibèric,Tardor,0.095,0.095,Positiva,0.3012,0.5333,No,120,RONI · Precipitació · Subregió i estació
+RONI,Precipitació,mm,Subregió i estació,Mediterrani central occidental,Tardor,0.103,0.103,Positiva,0.2646,0.4955,No,120,RONI · Precipitació · Subregió i estació
+RONI,Humitat del sòl,m3/m3,Subregió i estació,Catalunya-Balears,Hivern,0.118,0.118,Positiva,0.1975,0.4104,No,120,RONI · Humitat del sòl · Subregió i estació
+RONI,Humitat del sòl,m3/m3,Subregió i estació,Golf del Lleó,Hivern,0.003,0.003,Positiva,0.9703,0.9872,No,120,RONI · Humitat del sòl · Subregió i estació
+RONI,Humitat del sòl,m3/m3,Subregió i estació,Llevant Ibèric,Hivern,-0.015,0.015,Negativa,0.8736,0.9396,No,120,RONI · Humitat del sòl · Subregió i estació
+RONI,Humitat del sòl,m3/m3,Subregió i estació,Mediterrani central occidental,Hivern,0.017,0.017,Positiva,0.8514,0.9295,No,120,RONI · Humitat del sòl · Subregió i estació
+RONI,Humitat del sòl,m3/m3,Subregió i estació,Catalunya-Balears,Primavera,-0.179,0.179,Negativa,0.0507,0.1596,No,120,RONI · Humitat del sòl · Subregió i estació
+RONI,Humitat del sòl,m3/m3,Subregió i estació,Golf del Lleó,Primavera,-0.171,0.171,Negativa,0.0623,0.185,No,120,RONI · Humitat del sòl · Subregió i estació
+RONI,Humitat del sòl,m3/m3,Subregió i estació,Llevant Ibèric,Primavera,-0.151,0.151,Negativa,0.0995,0.259,No,120,RONI · Humitat del sòl · Subregió i estació
+RONI,Humitat del sòl,m3/m3,Subregió i estació,Mediterrani central occidental,Primavera,-0.2,0.2,Negativa,0.0289,0.1054,No,120,RONI · Humitat del sòl · Subregió i estació
+RONI,Humitat del sòl,m3/m3,Subregió i estació,Catalunya-Balears,Estiu,0.009,0.009,Positiva,0.9205,0.9637,No,120,RONI · Humitat del sòl · Subregió i estació
+RONI,Humitat del sòl,m3/m3,Subregió i estació,Golf del Lleó,Estiu,0.078,0.078,Positiva,0.3978,0.6258,No,120,RONI · Humitat del sòl · Subregió i estació
+RONI,Humitat del sòl,m3/m3,Subregió i estació,Llevant Ibèric,Estiu,-0.071,0.071,Negativa,0.4395,0.6608,No,120,RONI · Humitat del sòl · Subregió i estació
+RONI,Humitat del sòl,m3/m3,Subregió i estació,Mediterrani central occidental,Estiu,-0.046,0.046,Negativa,0.6199,0.7904,No,120,RONI · Humitat del sòl · Subregió i estació
+RONI,Humitat del sòl,m3/m3,Subregió i estació,Catalunya-Balears,Tardor,0.154,0.154,Positiva,0.094,0.2484,No,120,RONI · Humitat del sòl · Subregió i estació
+RONI,Humitat del sòl,m3/m3,Subregió i estació,Golf del Lleó,Tardor,0.211,0.211,Positiva,0.0209,0.0821,No,120,RONI · Humitat del sòl · Subregió i estació
+RONI,Humitat del sòl,m3/m3,Subregió i estació,Llevant Ibèric,Tardor,0.169,0.169,Positiva,0.0655,0.191,No,120,RONI · Humitat del sòl · Subregió i estació
+RONI,Humitat del sòl,m3/m3,Subregió i estació,Mediterrani central occidental,Tardor,0.182,0.182,Positiva,0.0462,0.1499,No,120,RONI · Humitat del sòl · Subregió i estació
+RONI,Temperatura,°C,Subregió i estació,Catalunya-Balears,Hivern,0.07,0.07,Positiva,0.4498,0.6701,No,120,RONI · Temperatura · Subregió i estació
+RONI,Temperatura,°C,Subregió i estació,Golf del Lleó,Hivern,0.063,0.063,Positiva,0.4935,0.7029,No,120,RONI · Temperatura · Subregió i estació
+RONI,Temperatura,°C,Subregió i estació,Llevant Ibèric,Hivern,0.068,0.068,Positiva,0.4604,0.678,No,120,RONI · Temperatura · Subregió i estació
+RONI,Temperatura,°C,Subregió i estació,Mediterrani central occidental,Hivern,0.121,0.121,Positiva,0.1889,0.3988,No,120,RONI · Temperatura · Subregió i estació
+RONI,Temperatura,°C,Subregió i estació,Catalunya-Balears,Primavera,-0.152,0.152,Negativa,0.0982,0.2568,No,120,RONI · Temperatura · Subregió i estació
+RONI,Temperatura,°C,Subregió i estació,Golf del Lleó,Primavera,-0.145,0.145,Negativa,0.1132,0.283,No,120,RONI · Temperatura · Subregió i estació
+RONI,Temperatura,°C,Subregió i estació,Llevant Ibèric,Primavera,-0.08,0.08,Negativa,0.3827,0.6133,No,120,RONI · Temperatura · Subregió i estació
+RONI,Temperatura,°C,Subregió i estació,Mediterrani central occidental,Primavera,-0.229,0.229,Negativa,0.0119,0.0536,No,120,RONI · Temperatura · Subregió i estació
+RONI,Temperatura,°C,Subregió i estació,Catalunya-Balears,Estiu,0.001,0.001,Positiva,0.9921,0.9964,No,120,RONI · Temperatura · Subregió i estació
+RONI,Temperatura,°C,Subregió i estació,Golf del Lleó,Estiu,0.033,0.033,Positiva,0.72,0.8507,No,120,RONI · Temperatura · Subregió i estació
+RONI,Temperatura,°C,Subregió i estació,Llevant Ibèric,Estiu,-0.027,0.027,Negativa,0.7678,0.8802,No,120,RONI · Temperatura · Subregió i estació
+RONI,Temperatura,°C,Subregió i estació,Mediterrani central occidental,Estiu,0.022,0.022,Positiva,0.8139,0.9106,No,120,RONI · Temperatura · Subregió i estació
+RONI,Temperatura,°C,Subregió i estació,Catalunya-Balears,Tardor,0.159,0.159,Positiva,0.082,0.2258,No,120,RONI · Temperatura · Subregió i estació
+RONI,Temperatura,°C,Subregió i estació,Golf del Lleó,Tardor,0.2,0.2,Positiva,0.0287,0.1049,No,120,RONI · Temperatura · Subregió i estació
+RONI,Temperatura,°C,Subregió i estació,Llevant Ibèric,Tardor,0.076,0.076,Positiva,0.4093,0.6355,No,120,RONI · Temperatura · Subregió i estació
+RONI,Temperatura,°C,Subregió i estació,Mediterrani central occidental,Tardor,0.245,0.245,Positiva,0.007,0.035,Sí,120,RONI · Temperatura · Subregió i estació
+RONI,SST,°C,Subregió i estació,Catalunya-Balears,Hivern,0.124,0.124,Positiva,0.1768,0.3817,No,120,RONI · SST · Subregió i estació
+RONI,SST,°C,Subregió i estació,Golf del Lleó,Hivern,0.223,0.223,Positiva,0.0142,0.0618,No,120,RONI · SST · Subregió i estació
+RONI,SST,°C,Subregió i estació,Llevant Ibèric,Hivern,0.08,0.08,Positiva,0.3826,0.6132,No,120,RONI · SST · Subregió i estació
+RONI,SST,°C,Subregió i estació,Mediterrani central occidental,Hivern,0.158,0.158,Positiva,0.0838,0.229,No,120,RONI · SST · Subregió i estació
+RONI,SST,°C,Subregió i estació,Catalunya-Balears,Primavera,-0.147,0.147,Negativa,0.1081,0.2744,No,120,RONI · SST · Subregió i estació
+RONI,SST,°C,Subregió i estació,Golf del Lleó,Primavera,-0.198,0.198,Negativa,0.0303,0.1093,No,120,RONI · SST · Subregió i estació
+RONI,SST,°C,Subregió i estació,Llevant Ibèric,Primavera,-0.035,0.035,Negativa,0.7037,0.8407,No,120,RONI · SST · Subregió i estació
+RONI,SST,°C,Subregió i estació,Mediterrani central occidental,Primavera,-0.193,0.193,Negativa,0.0343,0.1199,No,120,RONI · SST · Subregió i estació
+RONI,SST,°C,Subregió i estació,Catalunya-Balears,Estiu,-0.028,0.028,Negativa,0.7624,0.8777,No,120,RONI · SST · Subregió i estació
+RONI,SST,°C,Subregió i estació,Golf del Lleó,Estiu,-0.029,0.029,Negativa,0.7526,0.8711,No,120,RONI · SST · Subregió i estació
+RONI,SST,°C,Subregió i estació,Llevant Ibèric,Estiu,-0.079,0.079,Negativa,0.3908,0.6207,No,120,RONI · SST · Subregió i estació
+RONI,SST,°C,Subregió i estació,Mediterrani central occidental,Estiu,0.007,0.007,Positiva,0.9352,0.9705,No,120,RONI · SST · Subregió i estació
+RONI,SST,°C,Subregió i estació,Catalunya-Balears,Tardor,0.049,0.049,Positiva,0.5987,0.7747,No,120,RONI · SST · Subregió i estació
+RONI,SST,°C,Subregió i estació,Golf del Lleó,Tardor,0.229,0.229,Positiva,0.0118,0.0535,No,120,RONI · SST · Subregió i estació
+RONI,SST,°C,Subregió i estació,Llevant Ibèric,Tardor,0.024,0.024,Positiva,0.7913,0.8966,No,120,RONI · SST · Subregió i estació
+RONI,SST,°C,Subregió i estació,Mediterrani central occidental,Tardor,0.174,0.174,Positiva,0.0579,0.175,No,120,RONI · SST · Subregió i estació

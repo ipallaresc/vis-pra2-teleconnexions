@@ -1,27 +1,134 @@
-# Codi i notebooks
+# Codi del projecte
 
-Aquesta carpeta recollirà el codi utilitzat per preparar, analitzar i exportar les dades del projecte.
+Aquesta carpeta conté els notebooks, dades processades i fitxers auxiliars utilitzats per preparar les dades i generar els CSV finals de la visualització.
 
-El flux de treball s’ha desenvolupat des de zero amb **Jupyter Notebook**. A partir de les fonts descrites a la PRA1, s’ha construït el dataset final, s’ha fet un estudi exploratori en profunditat i s’han generat els fitxers CSV utilitzats posteriorment a Flourish i a la web.
+## Estructura
 
-## Contingut previst
+```text
+codi/
+├── data_processed/   # Dataset final i resultats processats
+├── data_flourish/    # CSV finals utilitzats a Flourish
+├── data_raw/         # Dades originals, si es publiquen
+├── docker/           # Configuració de l'entorn Docker
+├── figures/          # Figures generades als notebooks
+└── notebooks/        # Notebooks del projecte
+````
 
-Aquesta carpeta està pensada per incloure:
+## Execució amb Docker
 
-- notebooks de descàrrega, càrrega o preparació de dades;
-- scripts o notebooks de neteja i homogeneïtzació temporal;
-- càlcul d’anomalies mensuals per subregió;
-- classificació de fases de NAO, WeMO i RONI/ENSO;
-- creació de variables derivades i indicadors booleans;
-- estudi exploratori de les relacions entre teleconnexions i variables climàtiques;
-- generació dels CSV agregats utilitzats als gràfics de Flourish;
-- generació dels CSV utilitzats als heatmaps interactius de l’escena 9;
-- documentació tècnica addicional sobre decisions de preprocessat.
+Des de la carpeta `docker/`, aixeca l'entorn:
 
-## Fitxers de dades
+```bash
+docker compose up --build
+```
 
-Els CSV finals que alimenten directament la web es troben a la carpeta `data/` de l’arrel del repositori. Els notebooks i scripts d’aquesta carpeta expliquen com s’han obtingut o preparat aquests fitxers.
+Un cop el contenidor estigui en marxa, obre Jupyter Notebook o JupyterLab amb l'enllaç que apareix al terminal.
 
-## Nota
+Si no s'utilitza `docker-compose.yml`, es pot construir i executar manualment:
 
-En aquesta versió inicial, la carpeta inclou només aquest README. Els notebooks, scripts i fitxers auxiliars s’afegiran manualment després de la publicació inicial de la web.
+```bash
+docker build -t vis-pra2 .
+docker run -p 8888:8888 -v "$PWD":/workspace vis-pra2
+```
+
+## Ordre d'execució dels notebooks
+
+Els notebooks s'han d'executar en ordre.
+
+### 01 — Preparació del dataset
+
+Construeix el dataset principal a partir de les fonts climàtiques i dels índexs de teleconnexió.
+
+Fa principalment:
+
+* lectura o descàrrega de dades
+* definició de subregions
+* agregació mensual per subregió
+* càlcul d'anomalies
+* assignació de fases de NAO, WeMO i RONI/ENSO
+* creació de variables booleanes d'episodis extrems.
+
+Output principal:
+
+```text
+data_processed/teleconnections_catalonia_1981_2020_main_v2.csv
+```
+
+### 02 — Exploració inicial
+
+Explora el dataset generat al notebook 01.
+
+Fa principalment:
+
+* comprovació del rang temporal
+* revisió de nuls i duplicats
+* distribució de les variables climàtiques
+* visualització de les subregions
+* evolució temporal de NAO, WeMO i RONI/ENSO.
+
+Outputs principals:
+
+```text
+figures/
+```
+
+### 03 — Primeres relacions
+
+Analitza les primeres associacions entre teleconnexions i variables climàtiques.
+
+Fa principalment:
+
+* correlacions globals
+* correlacions per estació
+* correlacions per subregió
+* comparació inicial entre NAO, WeMO i RONI/ENSO
+* identificació de patrons útils per a la narrativa visual.
+
+Outputs principals:
+
+```text
+figures/
+data_processed/03_*.csv
+```
+
+### 04 — Anàlisi exhaustiva
+
+Amplia l'anàlisi estadística i valida els patrons detectats.
+
+Fa principalment:
+
+* correlacions per múltiples àmbits
+* càlcul de p-valors
+* correcció FDR per múltiples comparacions
+* anàlisi d'episodis extrems
+* resum de les hipòtesis principals.
+
+Output principal:
+
+```text
+data_processed/04_correlacions_exhaustives.csv
+```
+
+Aquest fitxer és necessari per generar alguns CSV finals del notebook 05.
+
+### 05 — CSV per a Flourish
+
+Prepara els CSV finals utilitzats a les visualitzacions de la web.
+
+Fa principalment:
+
+* adapta el dataset principal a cada escena
+* genera taules agregades per Flourish
+* exporta els CSV finals a `data_flourish/`.
+
+Outputs finals:
+
+```text
+data_flourish/escena_04_nao_precipitacio_hivern.csv
+data_flourish/escena_05_nao_percent_mesos_sol_molt_sec.csv
+data_flourish/escena_06_wemo_fases_temperatura_sst_global.csv
+data_flourish/escena_07_distribucio_forca_correlacions.csv
+data_flourish/escena_08_episodis_calor_sol_sec_wide_subregions.csv
+data_flourish/escena_09_explorador_anomalies.csv
+data_flourish/escena_09_explorador_episodis.csv
+```

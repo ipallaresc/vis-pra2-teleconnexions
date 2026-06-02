@@ -1,0 +1,13 @@
+teleconnexio,variable,correlacio,etiqueta
+nao,anomalia_temperatura,0.19533143491382157,nao - anomalia_temperatura
+nao,anomalia_precipitacio_mensual_mm,-0.31227124781407595,nao - anomalia_precipitacio_mensual_mm
+nao,anomalia_humitat_sol_capa1,-0.22319969867820627,nao - anomalia_humitat_sol_capa1
+nao,anomalia_sst,0.11418377485377151,nao - anomalia_sst
+wemo,anomalia_temperatura,-0.23677248617665989,wemo - anomalia_temperatura
+wemo,anomalia_precipitacio_mensual_mm,-0.02164673673399939,wemo - anomalia_precipitacio_mensual_mm
+wemo,anomalia_humitat_sol_capa1,-0.03261398824458488,wemo - anomalia_humitat_sol_capa1
+wemo,anomalia_sst,-0.25801303929034447,wemo - anomalia_sst
+roni,anomalia_temperatura,0.05077269942512726,roni - anomalia_temperatura
+roni,anomalia_precipitacio_mensual_mm,0.01265963123033761,roni - anomalia_precipitacio_mensual_mm
+roni,anomalia_humitat_sol_capa1,0.027079798500335296,roni - anomalia_humitat_sol_capa1
+roni,anomalia_sst,0.04189457600971979,roni - anomalia_sst

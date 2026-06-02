@@ -1,0 +1,12 @@
+services:
+  climate-notebook:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.climate
+    container_name: climate-notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - ..:/workspace
+      - /home/ivan/.cdsapirc:/root/.cdsapirc:ro
+    working_dir: /workspace/

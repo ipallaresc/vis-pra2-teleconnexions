@@ -8,11 +8,10 @@ Màster universitari en Ciència de Dades · Universitat Oberta de Catalunya
 
 - **Web del projecte:** https://ipallaresc.github.io/vis-pra2-teleconnexions/
 - **Repositori:** https://github.com/ipallaresc/vis-pra2-teleconnexions
-- **Document de context de la PRA1:** [`docs/PRA1.pdf`](docs/PRA1.pdf)
 
 ## Resum del projecte
 
-Aquest projecte explora com tres patrons de teleconnexió climàtica —**NAO**, **WeMO** i **ENSO/RONI**— s’associen amb la variabilitat climàtica del Mediterrani occidental entre **1981 i 2020**.
+Aquest projecte explora com tres patrons de teleconnexió climàtica - **NAO**, **WeMO** i **ENSO/RONI** - s’associen amb la variabilitat climàtica del Mediterrani occidental entre **1981 i 2020**.
 
 La visualització se centra en dades mensuals de precipitació, temperatura de l’aire, humitat del sòl i temperatura superficial del mar. El relat compara com aquests patrons apareixen en diferents variables, estacions, subregions i períodes, i tanca amb un espai d’exploració interactiva per provar combinacions concretes.
 
@@ -128,31 +127,6 @@ El projecte combina diferents eines de preparació, anàlisi i visualització:
 ## Ús d’IA generativa
 
 S’ha utilitzat ChatGPT com a assistent de suport durant el desenvolupament dels Jupyter notebooks, per la reutilització i adaptació d’una estructura web utilitzada a la PAC3, i generació del codi JavaScript dels heatmaps interactius a l'apartat d'exploració. Totes les sortides s’han revisat i adaptat manualment abans d’integrar-les al projecte.
-
-## Estructura del repositori
-
-```text
-.
-├── index.html
-├── style.css
-├── js/
-│   └── escena09.js
-├── data/
-│   ├── escena_09_explorador_anomalies.csv
-│   └── escena_09_explorador_episodis.csv
-├── assets/
-│   └── svg/
-│       ├── NAO.svg
-│       ├── WeMO.svg
-│       └── ENSO.svg
-├── codi/
-│   └── README.md
-├── docs/
-│   └── PRA1.pdf
-├── LICENSE
-├── LICENSE-CONTENT.md
-└── README.md
-```
 
 ## Execució local
 

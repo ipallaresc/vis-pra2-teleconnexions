@@ -1,0 +1,301 @@
+tipus_resultat,descripcio,forca,p_valor,q_fdr
+correlacio,NAO vs Pressió · global,0.6498228871655591,8.74396945694212e-231,5.246381674165272e-227
+diferencia_fases,NAO Negative vs Positive · Pressió · global,1.337724931631459,8.103055500693023e-119,1.7502599881496929e-115
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · global,1.4515206778639094,2.0383136219614976e-102,2.2013787117184175e-99
+correlacio,NAO vs Pressió · estacio,0.7484116442747171,2.7799116646725763e-87,5.559823329345152e-84
+correlacio,WEMO vs Vent U10 · estacio,0.7283673837797724,1.6426624667677584e-80,2.4639937001516376e-77
+correlacio,NAO vs Pressió · periode,0.7104524633079818,5.945135645175384e-75,7.134162774210461e-72
+correlacio,WEMO vs Vent U10 · subregio,0.7055113928439156,1.710854364544867e-73,1.710854364544867e-70
+correlacio,NAO vs Pressió · estacio,0.6904886271270441,3.0795965921153055e-69,2.639654221813119e-66
+correlacio,NAO vs Pressió · subregio,0.6839680097402172,1.8007232463705794e-67,1.3505424347779346e-64
+correlacio,NAO vs Pressió · periode,0.678770659995455,4.27557827011001e-66,2.8503855134066735e-63
+correlacio,WEMO vs Vent U10 · periode,0.676430180024856,1.7425734826946532e-65,1.045544089616792e-62
+correlacio,NAO vs Pressió · subregio,0.6696836299553542,9.308679969968534e-64,5.077461801801019e-61
+correlacio,NAO vs Pressió · subregio,0.6451862856758601,7.525814433944394e-58,3.473452815666643e-55
+correlacio,WEMO vs Vent U10 · estacio,0.6289973290883599,3.104984582363566e-54,1.3307076781558142e-51
+correlacio,WEMO vs Vent U10 · subregio,0.6237860599544658,4.0820345415794344e-53,1.632813816631774e-50
+correlacio,NAO vs Pressió · subregio,0.6192356221398387,3.721006756037684e-52,1.3953775335141316e-49
+correlacio,WEMO vs Vent U10 · subregio,0.6172224856574271,9.778413192616048e-52,3.4512046562174294e-49
+correlacio,NAO vs Pressió · periode,0.614791835586966,3.110778703001631e-51,1.036926234333877e-48
+correlacio,WEMO vs Vent U10 · estacio,0.607270751482093,1.0486928767463792e-49,3.311661716041198e-47
+correlacio,NAO vs Pressió · estacio,0.6001943847061241,2.638059907721802e-48,7.914179723165406e-46
+correlacio,NAO vs Pressió · estacio,0.5970169448341054,1.0937336195583012e-47,3.1249531987380034e-45
+diferencia_fases,NAO Negative vs Positive · Pressió · periode,1.746211054550976,6.243093241631247e-46,4.495027133974498e-43
+diferencia_fases,NAO Negative vs Positive · Pressió · estacio,1.875786462211255,3.1112411025615055e-42,1.3440561563065704e-39
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · periode,2.088482414493105,1.685981297043084e-41,6.069532669355103e-39
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · estacio,2.1953596536911117,4.530301375047567e-41,1.397921567157535e-38
+correlacio,WEMO vs Vent U10 · subregio_estacio,0.8783468061660941,1.2456781820460294e-39,2.8746419585677602e-37
+correlacio,WEMO vs Vent U10 · subregio_estacio,0.8723077632173356,1.808179450275109e-38,3.7410609316036745e-36
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio,1.9591106249954613,5.615345784853268e-38,1.5161433619103824e-35
+correlacio,WEMO vs Vent U10 · subregio_estacio,0.86438633877092,4.9508132691278795e-37,9.90162653825576e-35
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · estacio,1.7567114270854125,2.827241249199639e-36,6.785378998079133e-34
+diferencia_fases,NAO Negative vs Positive · Pressió · periode,1.3178940434399673,1.998390256168504e-35,4.316522953323969e-33
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio,1.433339254072217,5.232270215035421e-34,1.0274276058615008e-31
+diferencia_fases,NAO Negative vs Positive · Pressió · estacio,1.7234437397504991,1.937821044780214e-33,3.488077880604385e-31
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio,1.3923844496891877,2.3567685903866835e-33,3.9158616578732586e-31
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio,1.6865644147864112,3.327702049552376e-33,5.134168876452237e-31
+diferencia_fases,NAO Negative vs Positive · Pressió · estacio,1.381084474276788,1.8417489218686008e-31,2.6521184474907855e-29
+correlacio,NAO vs Pressió · subregio_estacio,0.8274206514820366,2.379658906967578e-31,4.3266525581228686e-29
+correlacio,WEMO vs Vent U10 · subregio_periode,0.8229480388796278,9.36752991152664e-31,1.653093513798819e-28
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio,1.287098094265352,8.766177224861807e-30,1.113820165041265e-27
+diferencia_fases,WEMO Negative vs Positive · Velocitat vent · periode,1.7196255663272342,1.1342466388511964e-29,1.3610959666214357e-27
+correlacio,WEMO vs Velocitat vent · subregio_estacio,0.8147599476722672,1.044541982928341e-29,1.6938518642081203e-27
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · estacio,1.5652005239466384,1.8509844799867885e-29,2.1042770930376124e-27
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio,1.2765771736708784,2.4432354381994364e-29,2.638694273255391e-27
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio,1.661565521926959,3.4991238862863104e-29,3.599098854465919e-27
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · periode,1.4916433589334104,1.3728141797696476e-27,1.347853921955654e-25
+correlacio,NAO vs Pressió · estacio_periode,0.7971279818219901,1.2816407871078825e-27,1.9224611806618237e-25
+diferencia_fases,NAO Negative vs Positive · Pressió · periode,1.2858775920257481,2.7338567700530385e-27,2.5674480970932884e-25
+diferencia_fases,WEMO Negative vs Positive · Velocitat vent · estacio,1.4477691317332844,1.1847192420967295e-26,1.0662473178870565e-24
+correlacio,NAO vs Pressió · estacio_periode,0.7888583402276096,1.041724566242157e-26,1.48817795177451e-24
+correlacio,WEMO vs Vent U10 · subregio_periode,0.7832025945854605,4.139842942284446e-26,5.645240375842426e-24
+diferencia_fases,WEMO Negative vs Positive · Velocitat vent · subregio,1.4800898160201719,1.2170921241823098e-25,9.736736993458478e-24
+correlacio,WEMO vs Vent U10 · subregio_estacio,0.7773476505026864,1.6546447953302175e-25,1.9855737543962612e-23
+diferencia_fases,NAO Negative vs Positive · Pressió · estacio,1.2765073562158136,3.3230485864252886e-25,2.563494623813794e-23
+correlacio,WEMO vs Vent U10 · subregio_estacio,0.7748785635191577,2.930981507196709e-25,3.448213537878481e-23
+correlacio,NAO vs Pressió · subregio_estacio,0.7717758201313492,5.951400193649186e-25,6.737434181489645e-23
+correlacio,NAO vs Pressió · estacio_periode,0.7681237369441433,1.3506274083718013e-24,1.4734117182237834e-22
+correlacio,WEMO vs Vent U10 · estacio_periode,0.7610827959237862,6.290147235555991e-24,6.621207616374727e-22
+correlacio,NAO vs Pressió · subregio_estacio,0.7609694452172275,6.4450776251807495e-24,6.667321681221465e-22
+correlacio,NAO vs Pressió · estacio_periode,0.7524082356199469,3.8977245710216495e-23,3.9637876993440505e-21
+correlacio,NAO vs Pressió · subregio_estacio,0.748669972168467,8.359427853611553e-23,8.222388052732676e-21
+correlacio,NAO vs Pressió · subregio_periode,0.7478877991558837,9.789786059962668e-23,9.473986509641291e-21
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · periode,1.2776226560041826,2.3807756735066767e-22,1.7732673981980765e-20
+correlacio,WEMO vs Vent U10 · subregio_estacio,0.7388772737945083,5.797605883002657e-22,5.521529412383482e-20
+correlacio,WEMO vs Vent U10 · estacio_periode,0.7387062986506604,5.992369599586828e-22,5.617846499612652e-20
+correlacio,WEMO vs Vent U10 · subregio_estacio,0.7350615930299127,1.2046396876848487e-21,1.0787818098670287e-19
+correlacio,NAO vs Pressió · subregio_periode,0.7344841162747295,1.3441516944594836e-21,1.186016200993662e-19
+correlacio,WEMO vs Vent U10 · estacio_periode,0.7331750389311436,1.7213714692423667e-21,1.4968447558629276e-19
+correlacio,WEMO vs Vent U10 · estacio_periode,0.7315403656748266,2.3395707238051154e-21,2.005346334690099e-19
+correlacio,NAO vs Pressió · estacio_periode,0.7294596978100748,3.446300767232056e-21,2.9123668455482165e-19
+correlacio,WEMO vs Vent U10 · subregio_periode,0.7255196721918137,7.106706241668446e-21,5.922255201390372e-19
+correlacio,NAO vs Pressió · estacio_periode,0.7249279591090846,7.914107780665829e-21,6.504746121095202e-19
+correlacio,WEMO vs Vent U10 · subregio_estacio,0.7226188770661389,1.2012069834066812e-20,9.739516081675794e-19
+correlacio,WEMO vs Vent U10 · subregio_periode,0.71569361689893,4.095664454796681e-20,3.2334193064184324e-18
+correlacio,NAO vs Anomalia precipitació diària · estacio_periode,0.7051817639127592,2.4624544885632676e-19,1.870218598908811e-17
+correlacio,NAO vs Pressió · subregio_estacio,0.7043697607023581,2.819187319901794e-19,2.1143904899263454e-17
+correlacio,NAO vs Pressió · subregio_periode,0.7032090639663998,3.417953748522388e-19,2.5154209145308525e-17
+correlacio,NAO vs Pressió · estacio_periode,0.7031741866090044,3.4377419165254983e-19,2.5154209145308525e-17
+correlacio,NAO vs Anomalia precipitació mensual · estacio_periode,0.7029908554641355,3.543608056431476e-19,2.5616443781432357e-17
+correlacio,NAO vs Pressió · subregio_periode,0.7026799370057152,3.7304597427735163e-19,2.664614101981083e-17
+correlacio,NAO vs Pressió · subregio_estacio,0.7025974587798492,3.7816169068676445e-19,2.669376640141867e-17
+correlacio,NAO vs Pressió · subregio_periode,0.7005112608894961,5.328743965696322e-19,3.7177283481602246e-17
+correlacio,NAO vs Pressió · subregio_estacio,0.6969734449139409,9.468899454091346e-19,6.456067809607736e-17
+correlacio,WEMO vs Velocitat vent · subregio_estacio,0.6872155036625375,4.431604822118523e-18,2.921937245352872e-16
+correlacio,WEMO vs Vent U10 · subregio_periode,0.6867747201242904,4.744811494599465e-18,3.094442279086608e-16
+correlacio,NAO vs Pressió · estacio_periode,0.6840279853542849,7.241996792045006e-18,4.622551143858515e-16
+correlacio,WEMO vs Velocitat vent · subregio_periode,0.6836268031856026,7.700381822900943e-18,4.863399046042701e-16
+correlacio,NAO vs Precipitació mensual · estacio_periode,0.6812879504496547,1.0991547024352337e-17,6.798895066609693e-16
+correlacio,WEMO vs Vent U10 · subregio_estacio,0.680223170060784,1.2910530727004547e-17,7.904406567553803e-16
+correlacio,NAO vs Pressió · subregio_periode,0.677640921117183,1.9020029090837622e-17,1.1412017454502571e-15
+correlacio,WEMO vs Vent U10 · subregio_periode,0.6726669950173906,3.967900131422588e-17,2.3571683949045075e-15
+correlacio,NAO vs Pressió · subregio_periode,0.6720660787279374,4.332358143981899e-17,2.548445967048176e-15
+correlacio,NAO vs Precipitació mm/dia · estacio_periode,0.6707954003964691,5.213520757315061e-17,3.0370023829019773e-15
+correlacio,WEMO vs Vent U10 · estacio_periode,0.6630181763110383,1.5876657314841402e-16,9.159609989331579e-15
+correlacio,NAO vs Pressió · subregio_periode,0.6602880007656683,2.3288740928789176e-16,1.318230618610708e-14
+correlacio,WEMO vs Vent U10 · estacio_periode,0.6590402895389362,2.770847765204489e-16,1.5537464103950405e-14
+correlacio,NAO vs Pressió · estacio_periode,0.658896997654718,2.8265501197827397e-16,1.570305622101522e-14
+correlacio,WEMO vs Vent U10 · estacio_periode,0.6555058792217245,4.512971760649676e-16,2.4616209603543687e-14
+correlacio,NAO vs Pressió · subregio_periode,0.6527019249673368,6.615049963793393e-16,3.5757026831315635e-14
+correlacio,NAO vs Pressió · subregio_estacio,0.6523460796031615,6.941992156688168e-16,3.718924369654376e-14
+correlacio,NAO vs Pressió · subregio_estacio,0.6494533637463171,1.025100524294457e-15,5.3952659173392473e-14
+correlacio,NAO vs Pressió · estacio_periode,0.648002084049551,1.2445426079828565e-15,6.49326578078012e-14
+correlacio,WEMO vs Pressió · estacio_periode,0.6474434638739042,1.340649545403755e-15,6.93439420036425e-14
+correlacio,NAO vs Pressió · subregio_estacio,0.6461086338715661,1.6004376592051657e-15,8.207372611308543e-14
+correlacio,NAO vs Pressió · subregio_estacio,0.6442046710122942,2.0573290537103962e-15,1.0460995188357947e-13
+correlacio,NAO vs Pressió · estacio_periode,0.6434437693078258,2.273402288075424e-15,1.1462532544918105e-13
+correlacio,WEMO vs Vent U10 · subregio_periode,0.6413960908893993,2.9702585047858465e-15,1.4728554569186018e-13
+correlacio,WEMO vs Vent U10 · estacio_periode,0.6412668462351054,3.020605474356519e-15,1.4855436759130422e-13
+correlacio,WEMO vs Vent U10 · subregio_estacio,0.6402648200620537,3.440099962352182e-15,1.6645644979123461e-13
+correlacio,WEMO vs Vent U10 · estacio_periode,0.638527655449814,4.305184349609807e-15,2.0664884878127074e-13
+correlacio,WEMO vs Vent U10 · subregio_periode,0.6378562424516226,4.693306983639697e-15,2.234908087447475e-13
+correlacio,WEMO vs Vent U10 · subregio_periode,0.6340298385266623,7.644939899745709e-15,3.5835655780058013e-13
+correlacio,WEMO vs Velocitat vent · subregio_estacio,0.6324892445417897,9.28662192769789e-15,4.319359036138554e-13
+correlacio,NAO vs Pressió · subregio_periode,0.6320328889697019,9.835422351779665e-15,4.5394257008213843e-13
+correlacio,NAO vs Pressió · subregio_estacio,0.6297683865067897,1.3059229653280297e-14,5.84741626266282e-13
+correlacio,WEMO vs Vent U10 · subregio_periode,0.6222979186031666,3.273767854394108e-14,1.3930927039974927e-12
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_periode,3.0486839123625344,3.6177670189376593e-14,1.6279951585219468e-12
+correlacio,NAO vs Pressió · subregio_estacio,0.618601574790337,5.112377490738151e-14,2.160159503128796e-12
+correlacio,WEMO vs Velocitat vent · estacio_periode,0.6143027279076991,8.522670163819357e-14,3.5511125682580657e-12
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_periode,1.8547367267589674,1.4162329090474678e-13,5.4626126491830895e-12
+diferencia_fases,WEMO Negative vs Positive · Velocitat vent · subregio_periode,2.9350181698934095,1.5978142689956163e-13,6.054875124614967e-12
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_estacio,3.277293972903619,2.38190350292355e-13,8.720189095448929e-12
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_periode,1.8395095245300164,2.436917677532478e-13,8.772903639116922e-12
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_periode,3.053309347124403,2.4924299596397967e-13,8.825653627576985e-12
+correlacio,WEMO vs Vent U10 · subregio_periode,0.6059760691414996,2.2440424220882303e-13,8.916724855979724e-12
+correlacio,NAO vs Pressió · subregio_periode,0.6028528095311027,3.203347886333234e-13,1.2644794288157504e-11
+correlacio,NAO vs Pressió · estacio_periode,0.601563815824609,3.7060293311306735e-13,1.4533448357375188e-11
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_estacio,3.1828064391358155,5.59025352328823e-13,1.916658350841679e-11
+correlacio,NAO vs Pressió · subregio_periode,0.5981188440153354,5.4539750158356e-13,2.124925330845039e-11
+diferencia_fases,WEMO Negative vs Positive · Velocitat vent · subregio_estacio,2.9702304408549334,6.519091312892767e-13,2.1867734045927993e-11
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_estacio,3.2201645884068317,7.598977465774341e-13,2.4869380797079663e-11
+correlacio,WEMO vs Vent U10 · subregio_estacio,0.5910889966554037,1.1830381160805245e-12,4.550146600309709e-11
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_estacio,2.0621472274280803,1.4462805651661108e-12,4.59406767758647e-11
+correlacio,NAO vs Pressió · subregio_estacio,0.589498636650692,1.4059013631434083e-12,5.305288162805314e-11
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_estacio,1.9844670020304749,2.1175559559724506e-12,6.352667867917352e-11
+correlacio,NAO vs Pressió · subregio_periode,0.5874533967673262,1.752877631643832e-12,6.41296694503841e-11
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_estacio,2.3216412045544343,2.4280721697057305e-12,7.184432721321065e-11
+correlacio,WEMO vs Velocitat vent · subregio_estacio,0.5853117673734675,2.2046902458097915e-12,7.921042799316616e-11
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_estacio,2.24552255434261,3.879496141157771e-12,1.1172948886534379e-10
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_periode,1.6682698885103213,3.9689023908319525e-12,1.1280038373943444e-10
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_periode,1.6295154873659714,5.125626541154378e-12,1.437838094661488e-10
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_estacio,1.8817467698049228,5.8779886594776364e-12,1.6277507057014994e-10
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_estacio,2.1058272975236476,1.9377122547388164e-11,5.104217646629078e-10
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_estacio,2.094490842674003,2.4656399437131312e-11,6.34021699811948e-10
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_estacio,2.227275181535223,3.294223960436289e-11,8.178762936255614e-10
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_periode,2.1642771371173626,3.4086767291556774e-11,8.366751971563935e-10
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_periode,1.385561881854346,5.621544410851657e-11,1.3491706586043977e-09
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_estacio,1.5672830541345688,5.980165924581007e-11,1.4194679557247225e-09
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_periode,1.72536726126177,6.592679664700745e-11,1.5478465299732184e-09
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_estacio,1.7065801093761244,7.832231883488368e-11,1.819099018100524e-09
+diferencia_booleanes,NAO Negative vs Positive · mes_molt_sec · estacio,0.29190340909090906,8.876362039366363e-12,3.4440284712741486e-09
+diferencia_fases,WEMO Negative vs Positive · Velocitat vent · subregio_estacio,2.0624847299109947,2.1423366841865101e-10,4.870997092466171e-09
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_periode,1.93370150700832,2.369385141057031e-10,5.276156602766172e-09
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_periode,1.3813583111140717,2.4164762734208385e-10,5.326110969988787e-09
+diferencia_fases,WEMO Negative vs Positive · Velocitat vent · subregio_periode,2.2604268007274055,2.5183150727197587e-10,5.444026101011392e-09
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_periode,1.8805131449156312,3.6944522709493135e-10,7.823545985539722e-09
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_estacio,1.8383319522083816,4.0210615224859106e-10,8.43251736754327e-09
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_periode,1.8356397588324627,4.569255782896701e-10,9.48999277986238e-09
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_estacio,1.5514692988404066,4.689431827720978e-10,9.646831188454583e-09
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_estacio,1.7997695775569162,4.920689750836664e-10,1.0027065907365278e-08
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_estacio,1.7409445983917091,6.841876966538837e-10,1.3558214906168703e-08
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_periode,1.2905687894605697,8.02039181737027e-10,1.5467898504928378e-08
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_estacio,1.471963370436001,1.0222573494291295e-09,1.9369086620762452e-08
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_fred · estacio,0.2576593137254902,1.5383423879039512e-10,2.6653514492970805e-08
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_estacio,1.6761110495850564,1.5707432675653829e-09,2.950265615601067e-08
+diferencia_fases,WEMO Negative vs Positive · Velocitat vent · subregio_estacio,1.718804368819371,2.3429680147576524e-09,4.2527822788878396e-08
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_periode,1.453065804932201,2.3871871865765426e-09,4.296936935837777e-08
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_estacio,1.6300995645051166,3.3976954092068897e-09,6.015591872038428e-08
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_estacio,1.5655146978249719,5.514156434348992e-09,9.528462318555057e-08
+diferencia_fases,WEMO Negative vs Positive · Velocitat vent · subregio_estacio,1.8055235621329122,5.71219379839666e-09,9.792332225822845e-08
+diferencia_fases,WEMO Negative vs Positive · Velocitat vent · subregio_estacio,1.588240665785231,6.905210863681795e-09,1.1744295642167463e-07
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_periode,1.7026087200939626,7.447762305745877e-09,1.2568098890946167e-07
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_estacio,1.7403120694344023,7.723511506373714e-09,1.2932391359509475e-07
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_estacio,1.3047469986759195,1.4486026362553282e-08,2.392077031779964e-07
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_estacio,1.565937062964278,1.4759582854267807e-08,2.4152044670620047e-07
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_estacio,1.379846777842172,1.5934714606638646e-08,2.5878935000255246e-07
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_periode,1.3195870527624292,2.719406788798858e-08,4.225840765327721e-07
+diferencia_fases,WEMO Negative vs Positive · Evaporació potencial · subregio_estacio,1.5432796328459426,2.7871421090578822e-08,4.300162111117875e-07
+diferencia_fases,NAO Negative vs Positive · Pressió · subregio_estacio,1.319613009692966,4.4995866883955965e-08,6.70283258409275e-07
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_periode,1.5744524865024996,4.579466678828562e-08,6.775101387855955e-07
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_fred · estacio,0.260230179028133,5.644416761718979e-09,7.300112345156546e-07
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_periode,1.5910315032978541,6.09076065377606e-08,8.949689123915844e-07
+diferencia_fases,NAO Negative vs Positive · Vent V10 · subregio_periode,1.2690467222499764,6.326251889538535e-08,9.232908163110294e-07
+diferencia_fases,WEMO Negative vs Positive · Velocitat vent · subregio_periode,1.5585564555290428,8.03395897771724e-08,1.1268409994720285e-06
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_periode,1.5903949860116935,8.409404120109637e-08,1.1718911548023753e-06
+diferencia_fases,NAO Negative vs Positive · Vent V10 · subregio_estacio,1.3209323932406982,9.091211003902715e-08,1.2587830620788375e-06
+diferencia_fases,WEMO Negative vs Positive · Velocitat vent · subregio_estacio,1.396604610512324,2.521808888784217e-07,3.3417835581435024e-06
+diferencia_fases,WEMO Negative vs Positive · Precipitació mensual · subregio_estacio,1.4223236854398367,3.9316903681564266e-07,5.025119050424782e-06
+diferencia_fases,WEMO Negative vs Positive · Anomalia temperatura · subregio_estacio,1.3480385113800721,4.0101813444209226e-07,5.059202346003813e-06
+diferencia_fases,WEMO Negative vs Positive · Precipitació mm/dia · subregio_estacio,1.4136038040110377,4.388683344075342e-07,5.386111376819738e-06
+diferencia_fases,WEMO Negative vs Positive · Anomalia precipitació diària · subregio_estacio,1.403441009874156,4.388683344075342e-07,5.386111376819738e-06
+diferencia_fases,WEMO Negative vs Positive · Anomalia precipitació mensual · subregio_estacio,1.4023135712775645,4.896711632064719e-07,5.942077036662805e-06
+diferencia_fases,WEMO Negative vs Positive · Velocitat vent · subregio_estacio,1.3449611289918688,5.411610020682546e-07,6.458053947333867e-06
+diferencia_fases,WEMO Negative vs Positive · Velocitat vent · subregio_periode,1.3232519920089074,5.480759054729109e-07,6.4690926547622274e-06
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_periode,1.3873185549233513,5.512413163768735e-07,6.471093713989384e-06
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_humit · estacio,0.26634615384615384,1.5424001022344009e-07,1.4387140396342016e-05
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_humit · estacio,0.23925983436853,1.6068112126498817e-07,1.4387140396342016e-05
+diferencia_fases,WEMO Negative vs Positive · Velocitat vent · subregio_periode,1.2974307924864124,1.5183577105320837e-06,1.6732921707904595e-05
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_fred · periode,0.25093984962406013,2.111563294118571e-07,1.755614053110012e-05
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_humit · periode,0.23445540308747856,2.2880784106268637e-07,1.7755488466464463e-05
+diferencia_fases,WEMO Negative vs Positive · Anomalia SST · subregio_estacio,1.2895339001170318,1.8073719555984394e-06,1.9617705648706678e-05
+diferencia_fases,WEMO Negative vs Positive · Evaporació potencial · subregio_estacio,1.3611912359927796,1.857678749815269e-06,2.0062930498004903e-05
+diferencia_fases,WEMO Negative vs Positive · Velocitat vent · subregio_periode,1.2928437542624232,1.9844018102253214e-06,2.111481729106746e-05
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_calid · estacio,0.2311381074168798,2.975040874701069e-07,2.1643422363450278e-05
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_periode,1.2829723685824161,2.1681565329668345e-06,2.2844966396138352e-05
+diferencia_fases,WEMO Negative vs Positive · Anomalia temperatura · subregio_estacio,1.289807929802572,2.52969710689554e-06,2.6144238042556775e-05
+diferencia_fases,WEMO Negative vs Positive · Anomalia SST · subregio_estacio,1.2875688944266048,2.6532001667625374e-06,2.7216604098501052e-05
+diferencia_fases,WEMO Negative vs Positive · Vent V10 · subregio_estacio,1.3405408332533477,3.4535502264215657e-06,3.437635248419623e-05
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_sec · estacio,0.23149585921325055,4.954438087936718e-06,0.00025852124279982327
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_humit · periode,0.21296296296296297,5.108237615460425e-06,0.00025852124279982327
+diferencia_fases,WEMO Negative vs Positive · Vent U10 · subregio_periode,1.2713016332856513,4.2016264251160876e-05,0.00031732563210666955
+diferencia_booleanes,NAO Negative vs Positive · mes_molt_sec · subregio_estacio,0.45833333333333337,1.4008033945076822e-05,0.0006079354954195884
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_sec · estacio,0.2178030303030303,1.4623877896691127e-05,0.0006079354954195884
+diferencia_booleanes,WEMO Negative vs Positive · sol_molt_humit · subregio_estacio,0.4629156010230179,3.6503364212961954e-05,0.0012139975983967918
+diferencia_booleanes,WEMO Negative vs Positive · sol_molt_sec · subregio,0.21379310344827585,6.077647008564388e-05,0.0017685952794922368
+diferencia_booleanes,WEMO Negative vs Positive · sol_molt_humit · subregio,0.21379310344827587,6.396891797614712e-05,0.0018160931835179328
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_sec · subregio_periode,0.3880789022298457,0.00019328889613794451,0.004090695910992135
+diferencia_booleanes,NAO Negative vs Positive · mes_molt_humit · subregio_periode,0.3336192109777016,0.0002495414198747072,0.004923156148036597
+diferencia_booleanes,NAO Negative vs Positive · mes_molt_sec · subregio_estacio,0.29829545454545453,0.00026270668366924776,0.0050965096631834066
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_humit · subregio_estacio,0.3596153846153845,0.0003093039205202964,0.005806931669122985
+diferencia_booleanes,NAO Negative vs Positive · episodi_calid_i_sec · subregio_estacio,0.21875,0.0004236476719543697,0.007827395081823592
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_sec · subregio_periode,0.3695652173913043,0.0005826648598860355,0.01012271487921411
+diferencia_booleanes,NAO Negative vs Positive · mes_molt_humit · subregio_periode,0.22727272727272727,0.0008705179959581362,0.013966564427813062
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_fred · subregio_estacio,0.309462915601023,0.0009548780219685761,0.014491549736350078
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_fred · subregio_estacio,0.3370098039215686,0.001195022487182638,0.017172915741735687
+diferencia_booleanes,NAO Negative vs Positive · mes_molt_humit · subregio_estacio,0.28467908902691513,0.0013550406935034468,0.018666516656426723
+diferencia_booleanes,WEMO Negative vs Positive · episodi_fred_i_humit · subregio_estacio,0.2352941176470588,0.0015779659072386917,0.021112095586503878
+diferencia_booleanes,NAO Negative vs Positive · mes_molt_sec · subregio_periode,0.2732456140350877,0.0016758048710630896,0.022166328067243595
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_fred · subregio_estacio,0.33248081841432225,0.0017253314966973856,0.02231428735728619
+diferencia_booleanes,NAO Negative vs Positive · mes_molt_sec · subregio_estacio,0.28409090909090906,0.001761309485985044,0.022529277381171334
+diferencia_booleanes,NAO Negative vs Positive · episodi_calid_i_sec · subregio_estacio,0.25,0.0018665696287987967,0.02361616356436738
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_humit · subregio_estacio,0.2797744890768147,0.0018892426823573104,0.023646005185633433
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_humit · subregio_estacio,0.24242424242424243,0.0023954039880726054,0.02845153308282156
+diferencia_booleanes,WEMO Negative vs Positive · sol_molt_humit · subregio_estacio,0.3523608174770965,0.0024734806117178037,0.029082135677166904
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_humit · subregio_estacio,0.30759803921568624,0.0028194860812669805,0.03215086405492927
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_fred · subregio_estacio,0.24387254901960784,0.0028610762411478514,0.03215086405492927
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_fred · subregio_estacio,0.24387254901960784,0.0028610762411478514,0.03215086405492927
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_humit · subregio_periode,0.30324074074074076,0.003551188415454796,0.03780796448023852
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_calid · subregio_estacio,0.2608695652173913,0.003572917605520823,0.03780796448023852
+diferencia_booleanes,WEMO Negative vs Positive · sol_molt_humit · subregio_estacio,0.32608695652173914,0.004148548707326208,0.041990527785458316
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_sec · subregio_estacio,0.30091613812544044,0.0044748126815751105,0.04490243070132266
+diferencia_booleanes,WEMO Negative vs Positive · sol_molt_humit · subregio_periode,0.3177304964539007,0.00526224963544532,0.049798850208604487
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_sec · subregio_estacio,0.3,0.006192888294630636,0.058133241733468226
+diferencia_booleanes,WEMO Negative vs Positive · sol_molt_sec · subregio_estacio,0.319693094629156,0.0072269177592226355,0.06563831845355979
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_humit · subregio_estacio,0.2971014492753623,0.007387130341422965,0.06563831845355979
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_humit · subregio_estacio,0.28846153846153844,0.007376959758654074,0.06563831845355979
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_fred · subregio_periode,0.3067669172932331,0.007511759858696921,0.06574201861295652
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_sec · subregio_estacio,0.28787878787878785,0.007675596471443696,0.0666745842743318
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_humit · subregio_periode,0.24537037037037038,0.008169472514702632,0.0689077246892309
+diferencia_booleanes,WEMO Negative vs Positive · sol_molt_sec · subregio_estacio,0.32276250880902035,0.008882914277084956,0.07274353641332663
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_humit · subregio_estacio,0.26242236024844723,0.008845986277851707,0.07274353641332663
+diferencia_booleanes,NAO Negative vs Positive · mes_molt_humit · subregio_periode,0.21759259259259264,0.008867450280835448,0.07274353641332663
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_humit · subregio_periode,0.26972555746140653,0.009433663851675019,0.07572954981620497
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_humit · subregio_estacio,0.2691511387163561,0.010441627828631542,0.08268064484712323
+diferencia_booleanes,NAO Negative vs Positive · mes_molt_fred · subregio_estacio,0.2691511387163561,0.010441627828631542,0.08268064484712323
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_sec · subregio_estacio,0.27639751552795033,0.011342909561342651,0.08861172301612648
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_sec · subregio_estacio,0.2536764705882353,0.011896093300244125,0.0899159259836634
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_fred · subregio_periode,0.25864661654135335,0.01218872858184975,0.091533419801762
+diferencia_booleanes,RONI La Nina vs El Nino · mes_molt_fred · subregio_estacio,0.25806451612903225,0.013843821550294773,0.10038291460709899
+diferencia_booleanes,RONI La Nina vs El Nino · mes_molt_humit · subregio_estacio,0.2352941176470588,0.013832594507252069,0.10038291460709899
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_humit · subregio_periode,0.22770154373927956,0.01376969964046547,0.10038291460709899
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_humit · subregio_periode,0.22770154373927956,0.01376969964046547,0.10038291460709899
+diferencia_booleanes,WEMO Negative vs Positive · sol_molt_sec · subregio_estacio,0.29411764705882354,0.014182003511583347,0.10084516468239141
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_fred · subregio_estacio,0.2289002557544757,0.014812177060557737,0.1038636993884892
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_sec · subregio_estacio,0.26153846153846155,0.016837501107816955,0.11654472377270966
+diferencia_booleanes,NAO Negative vs Positive · mes_molt_sec · subregio_estacio,0.24038461538461536,0.01810258449545101,0.12322461024973672
+diferencia_booleanes,NAO Negative vs Positive · mes_molt_fred · subregio_estacio,0.2199792960662526,0.019109337232192627,0.1276898428493827
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_sec · subregio_estacio,0.23958333333333337,0.019494616476402243,0.1288107740752829
+diferencia_booleanes,NAO Negative vs Positive · mes_molt_calid · subregio_estacio,0.22692307692307692,0.020327864938966662,0.13218790384892287
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_humit · subregio_periode,0.2361111111111111,0.02064196149382889,0.13348468432676017
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_sec · subregio_estacio,0.2784679089026916,0.021616783420937015,0.13601046433497668
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_sec · subregio_estacio,0.24741200828157348,0.021493082448777914,0.13601046433497668
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_sec · subregio_periode,0.23596491228070174,0.021616783420937015,0.13601046433497668
+diferencia_booleanes,WEMO Negative vs Positive · sol_molt_sec · subregio_periode,0.2801418439716312,0.022147475873181468,0.1385648792587832
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_fred · subregio_periode,0.2323308270676692,0.02226085259569799,0.1385648792587832
+diferencia_booleanes,NAO Negative vs Positive · mes_molt_humit · subregio_estacio,0.2267080745341615,0.023385715122036126,0.14326827580026344
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_calid · subregio_estacio,0.22378516624040917,0.024745023309149742,0.14830166174339343
+diferencia_booleanes,RONI La Nina vs El Nino · mes_molt_fred · subregio_estacio,0.2258064516129032,0.025804660363517935,0.15192215853121235
+diferencia_booleanes,NAO Negative vs Positive · mes_molt_calid · subregio_estacio,0.22348484848484848,0.025855507065402048,0.15192215853121235
+diferencia_booleanes,NAO Negative vs Positive · mes_molt_humit · subregio_estacio,0.23863636363636365,0.026838660718217264,0.15389261613795513
+diferencia_booleanes,NAO Negative vs Positive · mes_molt_sec · subregio_periode,0.2146892655367231,0.02671526903666554,0.15389261613795513
+diferencia_booleanes,NAO Negative vs Positive · mes_molt_fred · subregio_periode,0.23472008217770926,0.029038912713876625,0.1632912772896251
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_humit · subregio_periode,0.21269296740994859,0.029223581991865397,0.1633148575439731
+diferencia_booleanes,WEMO Negative vs Positive · sol_molt_sec · subregio_periode,0.23291416074357574,0.033708077642872446,0.17998257970781434
+diferencia_booleanes,WEMO Negative vs Positive · mes_molt_calid · subregio_estacio,0.23017902813299235,0.0366871448794528,0.19149702529005858
+diferencia_booleanes,WEMO Negative vs Positive · sol_molt_humit · subregio_estacio,0.21000704721634952,0.041117331876111295,0.20279904366014215
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_humit · subregio_estacio,0.22499999999999998,0.042819954738090936,0.20767678047974103
+diferencia_booleanes,RONI La Nina vs El Nino · sol_molt_sec · subregio_estacio,0.24532224532224534,0.044287822536779445,0.20955701395451737
+diferencia_booleanes,WEMO Negative vs Positive · sol_molt_sec · subregio_estacio,0.23284313725490194,0.04411690164325779,0.20955701395451737
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_sec · subregio_periode,0.23061119671289165,0.0439556306930888,0.20955701395451737
+diferencia_booleanes,RONI La Nina vs El Nino · sol_molt_sec · subregio_estacio,0.22383922383922383,0.046868472522518474,0.21821960806484603
+diferencia_booleanes,RONI La Nina vs El Nino · mes_molt_humit · subregio_estacio,0.24901960784313723,0.049149212337364336,0.22435169866938073
+diferencia_booleanes,WEMO Negative vs Positive · sol_molt_sec · subregio_periode,0.22556390977443608,0.053945997157728076,0.24126722438050108
+diferencia_booleanes,WEMO Negative vs Positive · sol_molt_humit · subregio_estacio,0.21340629274965803,0.054098578662638126,0.24126722438050108
+diferencia_booleanes,WEMO Negative vs Positive · sol_molt_sec · subregio_periode,0.22263868065967019,0.054737822915672724,0.24318635829711086
+diferencia_booleanes,WEMO Negative vs Positive · sol_molt_humit · subregio_estacio,0.2289002557544757,0.057272315241537274,0.24926822677336363
+diferencia_booleanes,NAO Negative vs Positive · sol_molt_humit · subregio_periode,0.2116076014381099,0.06941812674090851,0.2855219064537721
+diferencia_booleanes,WEMO Negative vs Positive · sol_molt_humit · subregio_periode,0.2098950524737631,0.08297545952428348,0.32410548619552343
+diferencia_booleanes,RONI La Nina vs El Nino · sol_molt_sec · subregio_estacio,0.23137254901960783,0.09275060798347545,0.3405732103872727
+diferencia_booleanes,RONI La Nina vs El Nino · sol_molt_humit · subregio_estacio,0.2117647058823529,0.12025665704538206,0.40479166321198135
+diferencia_booleanes,RONI La Nina vs El Nino · sol_molt_humit · subregio_estacio,0.2117647058823529,0.12025665704538206,0.40479166321198135
