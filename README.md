@@ -1,6 +1,6 @@
 # Teleconnexions i variabilitat climàtica al Mediterrani occidental
 
-Pràctica final de l’assignatura **M2.959 · Visualització de dades**  
+Pràctica final de l’assignatura **M2.959 - Visualització de dades**  
 Màster universitari en Ciència de Dades · Universitat Oberta de Catalunya  
 **Juny de 2026**
 
@@ -35,23 +35,23 @@ El conjunt de dades final s’ha construït a partir de diferents fonts climàti
 
 ### Fonts del dataset
 
-- **Copernicus Climate Data Store · ERA5 monthly averaged data on single levels**  
+- **Copernicus Climate Data Store - ERA5 monthly averaged data on single levels**  
   Variables climàtiques mensuals com temperatura, precipitació, pressió, vent i temperatura superficial del mar.  
   https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels-monthly-means
 
-- **Copernicus Climate Data Store · ERA5-Land monthly averaged data**  
+- **Copernicus Climate Data Store - ERA5-Land monthly averaged data**  
   Variables hidrològiques i de superfície terrestre, especialment humitat del sòl.  
   https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land-monthly-means
 
-- **NOAA Physical Sciences Laboratory · North Atlantic Oscillation (NAO)**  
+- **NOAA Physical Sciences Laboratory - North Atlantic Oscillation (NAO)**  
   Sèrie mensual de l’índex NAO.  
   https://psl.noaa.gov/data/timeseries/month/DS/NAO/
 
-- **NOAA Climate Prediction Center · Relative Oceanic Niño Index (RONI)**  
+- **NOAA Climate Prediction Center - Relative Oceanic Niño Index (RONI)**  
   Sèrie utilitzada per representar ENSO/RONI i classificar les fases associades a El Niño, La Niña i situació neutral.  
   https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/
 
-- **Climatic Research Unit (CRU) / University of East Anglia (UEA) · MOI / WeMO**  
+- **Climatic Research Unit (CRU) / University of East Anglia (UEA) - MOI / WeMO**  
   Fitxers d’índexs de l’Oscil·lació Mediterrània i l’Oscil·lació del Mediterrani occidental.  
   https://crudata.uea.ac.uk/cru/data/moi/
 
@@ -156,7 +156,6 @@ Aquesta visualització treballa amb dades mensuals agregades i subregions defini
 
 ## Llicència
 
-El codi d’aquest repositori es publica sota llicència **MIT**. Els textos, disseny i materials visuals propis es publiquen sota llicència **Creative Commons Attribution 4.0 International (CC BY 4.0)**, excepte dades, gràfics o materials provinents de tercers, que mantenen les seves pròpies condicions d’ús.
+El codi d’aquest repositori es publica sota llicència **MIT**. Les dades, gràfics o materials provinents de tercers mantenen les seves pròpies condicions d’ús.
 
 - Codi: [`LICENSE`](LICENSE)
-- Continguts propis: [`LICENSE-CONTENT.md`](LICENSE-CONTENT.md)

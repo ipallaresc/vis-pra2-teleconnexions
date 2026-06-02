@@ -16,7 +16,7 @@ codi/
 
 ## Execució amb Docker
 
-Des de la carpeta `docker/`, aixeca l'entorn:
+Des de la carpeta `docker/`, arrenca l'entorn:
 
 ```bash
 docker compose up --build
@@ -39,8 +39,6 @@ Els notebooks s'han d'executar en ordre.
 
 Construeix el dataset principal a partir de les fonts climàtiques i dels índexs de teleconnexió.
 
-Fa principalment:
-
 * lectura o descàrrega de dades
 * definició de subregions
 * agregació mensual per subregió
@@ -58,8 +56,6 @@ data_processed/teleconnections_catalonia_1981_2020_main_v2.csv
 
 Explora el dataset generat al notebook 01.
 
-Fa principalment:
-
 * comprovació del rang temporal
 * revisió de nuls i duplicats
 * distribució de les variables climàtiques
@@ -75,8 +71,6 @@ figures/
 ### 03 — Primeres relacions
 
 Analitza les primeres associacions entre teleconnexions i variables climàtiques.
-
-Fa principalment:
 
 * correlacions globals
 * correlacions per estació
@@ -95,8 +89,6 @@ data_processed/03_*.csv
 
 Amplia l'anàlisi estadística i valida els patrons detectats.
 
-Fa principalment:
-
 * correlacions per múltiples àmbits
 * càlcul de p-valors
 * correcció FDR per múltiples comparacions
@@ -114,8 +106,6 @@ Aquest fitxer és necessari per generar alguns CSV finals del notebook 05.
 ### 05 — CSV per a Flourish
 
 Prepara els CSV finals utilitzats a les visualitzacions de la web.
-
-Fa principalment:
 
 * adapta el dataset principal a cada escena
 * genera taules agregades per Flourish
