@@ -57,7 +57,7 @@ El conjunt de dades final s’ha construït a partir de diferents fonts climàti
 
 ### Resum del dataset final
 
-- **Període:** 1981–2020.
+- **Període:** 1981-2020.
 - **Resolució temporal:** mensual.
 - **Unitat d’anàlisi:** combinació de mes, any i subregió. Per exemple: gener de 1998 a Catalunya-Balears.
 - **Nombre d’observacions:** 1.920 registres.
